@@ -27,7 +27,7 @@ jobs:
       uses: sbt/setup-sbt@v1
 
     - name: Install docker
-      uses: papodaca/install-docker-action@main
+      uses: docker/setup-docker-action@v4
       
     - name: Run Docker
       run: |
