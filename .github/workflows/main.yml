@@ -21,7 +21,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         distribution: 'temurin'
-        java-version: '17'
+        java-version: '8'
 
     - name: Install Spark
       uses: vemonet/setup-spark@v1
@@ -41,7 +41,8 @@ jobs:
         sudo systemctl enable docker
 
     - name: Run Flujo Base DIOT
-      run: sbt "testOnly sat.diot.general.GeneralTest Genera DF"
+      run: sbt "testOnly sat.diot.flujobase.Flujobasetest -t Flujo Base"
+     # run: sbt "testOnly sat.diot.general.GeneralTest Genera DF"
     # - name: Run ScalaTest
     #  run: sbt "testOnly sat.diot.general.GeneralTest Execute SQL query"
 
