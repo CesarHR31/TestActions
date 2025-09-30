@@ -16,8 +16,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:
-          path: DIOT_Descarga/sat_diot_parser
 
     - name: Set up JDK
       uses: actions/setup-java@v3
