@@ -11,6 +11,7 @@ import sat.diot.comunes.EnumStaging.EnumStaging
 import sat.diot.comunes.config.EnumDefault.EnumDefault
 import sat.diot.comunes.config.EnumPlata.EnumPlata
 import sat.diot.comunes.{EnumDataBase, Util}
+import java.nio.file.Paths
 
 object ConfigurationProvider extends Serializable {
 
@@ -18,7 +19,10 @@ object ConfigurationProvider extends Serializable {
   lazy val configs: ConfigurationDefinition = {
     val filePath = sys.env.getOrElse(
       "DIOT_CONFIGURATION_FILE_PATH",
-      s"$userDir\\src\\main\\resources\\databricks\\code-config_diot.json"
+      Paths.get(s"$userDir", "src", "main", "resources", "databricks", "code-config_diot.json")
+      .toAbsolutePath
+      .toString
+      //s"$userDir\\src\\main\\resources\\databricks\\code-config_diot.json"
     )
 
     new Gson().fromJson(Util.getFileContents(filePath), classOf[ConfigurationDefinition])
