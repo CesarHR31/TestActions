@@ -19,7 +19,7 @@ object ConfigurationProvider extends Serializable {
   lazy val configs: ConfigurationDefinition = {
     val filePath = sys.env.getOrElse(
       "DIOT_CONFIGURATION_FILE_PATH",
-      Paths.get(s"$userDir", "src", "main", "resources", "databricks", "code-config_diot.json")
+      Paths.get("src", "main", "resources", "databricks", "code-config_diot.json")
       .toAbsolutePath
       .toString
       //s"$userDir\\src\\main\\resources\\databricks\\code-config_diot.json"
