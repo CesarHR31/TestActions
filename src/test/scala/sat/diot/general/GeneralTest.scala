@@ -1,12 +1,13 @@
 package sat.diot.general
 
 import org.scalatest.funsuite.AnyFunSuite
-import sat.diot.comunes.{SparkSessionManager, Util}
+import sat.diot.comunes.{SparkSessionManager, TSparkSession, Util}
 import sat.diot.entities.SparkQueryEntity
+
 import java.nio.file.Paths
 
-class GeneralTest extends AnyFunSuite {
-  //private val spark = SparkSessionManager.getOrCreateLocal
+class GeneralTest extends AnyFunSuite  {
+  private val spark = SparkSessionManager.getOrCreateLocal
   private val USER_DIR = s"${System.getProperty("user.dir")}"
 
   def cifrasControlQueryInputs(): Unit = {
@@ -48,5 +49,14 @@ class GeneralTest extends AnyFunSuite {
     //    spark.table(s"$database.diot_oro_faltantes").show(false)
 
     cifrasControlQueryInputs()
+  }
+
+  test("Genera DF"){
+    import spark.implicits._
+
+    val seqNumbers = Seq(1, 2, 3, 4, 5)
+    seqNumbers
+      .toDF
+      .show()
   }
 }
