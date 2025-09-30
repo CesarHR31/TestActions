@@ -11,10 +11,10 @@ import java.nio.file.Paths
 
 abstract class UnitSpecWithDatabase extends AnyFunSuite with BeforeAndAfterAll {
   private val UserDir = s"${System.getProperty("user.dir")}"
-//  System.setProperty(
-//    "log4j2.configurationFile",
-//    s"$UserDir\\src\\test\\resources\\log4j2config.xml"
-//  )
+  //  System.setProperty(
+  //    "log4j2.configurationFile",
+  //    s"$UserDir\\src\\test\\resources\\log4j2config.xml"
+  //  )
 
   SparkSessionManager.localSpark = true
   lazy val spark: SparkSession = SparkSessionManager.session
@@ -32,15 +32,16 @@ abstract class UnitSpecWithDatabase extends AnyFunSuite with BeforeAndAfterAll {
   val tmpDir: File = Util.createTempDir()
   val tmpDirPath: String = tmpDir.getAbsolutePath.replace("\\", "\\\\")
   val dbName: String = s"testing${java.util.UUID.randomUUID().toString.replaceAll("-", "")}"
-println("<<<" + tmpDirPath + ">>>")
+  println("<<<" + tmpDirPath + ">>>")
+
   override protected def beforeAll(): Unit = {
     super.beforeAll()
     spark.sql(s"CREATE DATABASE $dbName LOCATION 'file:///$tmpDirPath\\\\testing.db'")
 
-    val rutaArchivosDatabricks = Paths.get("src", "main", "resources", "databricks", "tables", "/")
+    val rutaArchivosDatabricks = Paths.get(s"$UserDir", "src", "main", "resources", "databricks", "tables")
       .toAbsolutePath
       .toString
-      //s"$UserDir\\src\\main\\resources\\databricks\\tables"
+    //s"$UserDir\\src\\main\\resources\\databricks\\tables"
 
     spark.sql(
       s"CREATE DATABASE IF NOT EXISTS default LOCATION 'file:///$tmpDirPath\\\\default.db'"
@@ -59,17 +60,17 @@ println("<<<" + tmpDirPath + ">>>")
         spark.sql(
           s"CREATE DATABASE IF NOT EXISTS $directory LOCATION 'file:///$tmpDirPath\\\\$directory.db'"
         )
+        println(rutaArchivosDatabricks)
+        ScriptDataBricks = ScriptDataBricks + s"\n\n\r-----------------------------------------$directory-----------------------------------------\n\r"
 
-        ScriptDataBricks = ScriptDataBricks  + s"\n\n\r-----------------------------------------$directory-----------------------------------------\n\r"
-
-        new File(s"$rutaArchivosDatabricks\\$directory")
+        new File(s"$rutaArchivosDatabricks//$directory")
           .listFiles()
           //.par
           //.filter(p => !p.getAbsolutePath.toLowerCase().contains("vigente")) //--> quitar para que ejecute todas las capas
           .foreach { file =>
             println(s"Ejecutando ${file.getAbsolutePath}")
             spark.sql(s"USE $directory")
-            val  scriptEjecutar =
+            val scriptEjecutar =
 
               Util
                 .getFileContents(file.getAbsolutePath).replace("\uFEFF", "")
@@ -80,20 +81,20 @@ println("<<<" + tmpDirPath + ">>>")
                 .replace("$diot_inftotimpiva$", ConfigurationProvider.obtenerTablaOroId(EnumOro.identificadorTablaOro_inftotimpiva).name)
 
                 //------------------------- PLATA
-//                .replace("$plata_decinfoperacionesterceros$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_decinfoperacionesterceros).name)
-//                .replace("$plata_datosdeltercerodeclarado$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_datosdeltercerodeclarado).name)
-//                .replace("$plata_ivadeclararterceroproveedor$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivadeclararterceroproveedor).name)
-//                .replace("$plata_valoractacti$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_valoractacti).name)
-//                .replace("$plata_ivaacreditable$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivaacreditable).name)
-//                .replace("$plata_ivanoacreditable$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivanoacreditable).name)
-//                .replace("$plata_datosadicionales$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_datosadicionales).name)
-//                .replace("$plata_totales$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_totales).name)
-//                .replace("$plata_infototreportados$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_infototreportados).name)
-//                .replace("$plata_valactacti$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_valactacti).name)
-//                .replace("$plata_ivaacreditabletot$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivaacreditabletot).name)
-//                .replace("$plata_ivanoacreditabletot$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivanoacreditabletot).name)
-//                .replace("$plata_datosadicionalestot$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_datosadicionalestot).name)
-//                .replace("$plata_detdatosinformativos$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_detdatosinformativos).name)
+                //                .replace("$plata_decinfoperacionesterceros$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_decinfoperacionesterceros).name)
+                //                .replace("$plata_datosdeltercerodeclarado$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_datosdeltercerodeclarado).name)
+                //                .replace("$plata_ivadeclararterceroproveedor$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivadeclararterceroproveedor).name)
+                //                .replace("$plata_valoractacti$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_valoractacti).name)
+                //                .replace("$plata_ivaacreditable$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivaacreditable).name)
+                //                .replace("$plata_ivanoacreditable$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivanoacreditable).name)
+                //                .replace("$plata_datosadicionales$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_datosadicionales).name)
+                //                .replace("$plata_totales$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_totales).name)
+                //                .replace("$plata_infototreportados$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_infototreportados).name)
+                //                .replace("$plata_valactacti$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_valactacti).name)
+                //                .replace("$plata_ivaacreditabletot$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivaacreditabletot).name)
+                //                .replace("$plata_ivanoacreditabletot$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_ivanoacreditabletot).name)
+                //                .replace("$plata_datosadicionalestot$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_datosadicionalestot).name)
+                //                .replace("$plata_detdatosinformativos$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_detdatosinformativos).name)
 
                 .replace("$plata_diot_decinfopeter$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_diot_decinfopeter).name)
                 .replace("$plata_diot_infterdetiva$", ConfigurationProvider.obtenerTablaPlataId(EnumPlata.identificadorTablaPlata_diot_infterdetiva).name)
@@ -126,7 +127,8 @@ println("<<<" + tmpDirPath + ">>>")
 
     spark.sql("USE DEFAULT")
 
-    ScriptDataBricks = ScriptDataBricks + "\n\r" + """------------------------------------------< ctl_diot_conciliacion >---------------------------------------------
+    ScriptDataBricks = ScriptDataBricks + "\n\r" +
+      """------------------------------------------< ctl_diot_conciliacion >---------------------------------------------
 CREATE TABLE IF NOT EXISTS ctl_diot_conciliacion.contadorland (
     `nombreTabla`         STRING    NOT NULL COMMENT 'Nombre de la tabla en donde se realiza el conteo',
     `fechaPresentacion`   DATE      NOT NULL COMMENT 'Fecha de presentación de la declaración',
@@ -273,7 +275,7 @@ USING delta
 PARTITIONED BY (fechaPresentacion);"""
 
     val deploymentRoute = Paths.get(s"$UserDir\\src\\main\\resources\\databricks\\despliegue\\databricks").toFile
-    if(!deploymentRoute.exists())
+    if (!deploymentRoute.exists())
       deploymentRoute.mkdirs()
 
     import java.io.PrintWriter
@@ -284,26 +286,26 @@ PARTITIONED BY (fechaPresentacion);"""
   }
 
   override protected def afterAll(): Unit = {
-    val rutaArchivosDatabricks = Paths.get("src", "main", "resources", "databricks", "tables", "/")
+    val rutaArchivosDatabricks = Paths.get("src", "main", "resources", "databricks", "tables")
       .toAbsolutePath
       .toString
-     // s"$UserDir\\src\\main\\resources\\databricks\\tables"
+    // s"$UserDir\\src\\main\\resources\\databricks\\tables"
     println(rutaArchivosDatabricks)
 
-        spark.sql(s"DROP DATABASE $dbName CASCADE")
+    spark.sql(s"DROP DATABASE $dbName CASCADE")
 
-       new File(rutaArchivosDatabricks)
-          .list((dir: File, name: String) => {
-            new File(dir, name).isDirectory
-          })
-          .foreach { db => spark.sql(s"DROP DATABASE $db CASCADE") }
+    new File(rutaArchivosDatabricks)
+      .list((dir: File, name: String) => {
+        new File(dir, name).isDirectory
+      })
+      .foreach { db => spark.sql(s"DROP DATABASE $db CASCADE") }
 
 
-        FileUtils.deleteDirectory(tmpDir)
+    FileUtils.deleteDirectory(tmpDir)
 
-        val rutaSparkWarehouse = s"$UserDir\\spark-warehouse"
+    val rutaSparkWarehouse = s"$UserDir\\spark-warehouse"
 
-        FileUtils.deleteDirectory(new File(rutaSparkWarehouse))
+    FileUtils.deleteDirectory(new File(rutaSparkWarehouse))
 
     super.afterAll()
   }
