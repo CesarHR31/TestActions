@@ -26,11 +26,12 @@ jobs:
     - name: Set up sbt
       uses: sbt/setup-sbt@v1
 
-    - name: Set up Docker
-      uses: docker/setup-docker-action@v4
-
-    - name: Run Docker
-      run: sudo systemctl start docker
+    - name: Setup and Run Docker
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y docker.io
+        sudo systemctl start docker
+        sudo systemctl enable docker
 
     - name: Run Flujo Base DIOT
       run: sbt "testOnly sat.diot.flujobase.Flujobasetest *Flujo Base"
