@@ -20,6 +20,7 @@ class GeneralTest extends AnyFunSuite {
     //      columnToAdd = "fechainsercion"
     //    )
     println("Ejecución correcta!")
+    println("Prueba desde [Git Hub Actions]")
     //    sparkQueryEntity = queryObject
   }
 
