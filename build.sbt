@@ -17,6 +17,10 @@ dependencyOverrides := Seq(
   "org.antlr" % "antlr4-runtime" % "4.9.3"
 )
 
+javaOptions ++= Seq(
+  "--add-exports", "java.base/sun.nio.ch=ALL-UNNAMED"
+)
+
 libraryDependencies += "com.databricks" % "dbutils-api_2.12" % "0.0.6"
 libraryDependencies += "com.github.docker-java" % "docker-java" % "3.3.0"
 libraryDependencies += "com.github.docker-java" % "docker-java-transport-httpclient5" % "3.3.0"
