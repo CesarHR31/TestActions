@@ -23,6 +23,15 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
+    - name: Install Spark
+      run: |
+        SPARK_VERSION="3.4.1"
+        wget https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop3.tgz
+        tar -xzf spark-${SPARK_VERSION}-bin-hadoop3.tgz
+        mv spark-${SPARK_VERSION}-bin-hadoop3 /opt/spark
+        echo "SPARK_HOME=/opt/spark" >> $GITHUB_ENV
+        echo "/opt/spark/bin" >> $GITHUB_PATH
+
     - name: Set up sbt
       uses: sbt/setup-sbt@v1
 
@@ -35,7 +44,7 @@ jobs:
         sudo systemctl enable docker
 
     - name: Run Flujo Base DIOT
-      run: sbt "testOnly sat.diot.flujobase.Flujobasetest *Flujo Base"
+      run: sbt "testOnly sat.diot.general.GeneralTest *Genera DF"
     # - name: Run ScalaTest
     #  run: sbt "testOnly sat.diot.general.GeneralTest Execute SQL query"
 
