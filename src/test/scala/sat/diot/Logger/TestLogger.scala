@@ -32,6 +32,8 @@ class TestLogger extends DatabricksSecretsSpec  {
   test("Logg Error") {
     lazy val logger = org.apache.logging.log4j.LogManager.getLogger(ConfigurationProvider.nombreProyecto)
 
+    logger.info("Test INFO API!")
+
 //    ApplicationInsightsAppender.pasoEjecucion = CatalogoPasoEjecucionNPSI.IntegracionOro
 //    logger.debug("Test debug API")
 //    ApplicationInsightsAppender.pasoEjecucion = CatalogoPasoEjecucionNPSI.IntegracionPlata
