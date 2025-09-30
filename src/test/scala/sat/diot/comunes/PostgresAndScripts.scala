@@ -1,6 +1,7 @@
 package sat.diot.comunes
 
 import java.io.File
+import java.nio.file.Paths
 import java.sql.Connection
 
 trait PostgresAndScripts extends DockerJDBCSpec {
@@ -10,7 +11,9 @@ trait PostgresAndScripts extends DockerJDBCSpec {
 
   override def dataPreparation(connection: Connection): Unit = {
 
-    val directoryPath = s"${System.getProperty("user.dir")}\\src\\main\\resources\\postgresql"
+    val directoryPath = Paths.get("src", "main", "resources", "postgresql")
+      .toAbsolutePath
+      .toString //s"${System.getProperty("user.dir")}\\src\\main\\resources\\postgresql"
 
     new File(directoryPath)
       .listFiles((_, name) => name.endsWith(".sql"))
