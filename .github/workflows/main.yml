@@ -25,9 +25,12 @@ jobs:
 
     - name: Install Spark
       run: |
-        wget https://downloads.apache.org/spark/spark-3.4.1/spark-3.4.1-bin-hadoop3.tgz
-        tar -xzf spark-3.4.1-bin-hadoop3.tgz
-        echo "SPARK_HOME=$(pwd)/spark-3.4.1-bin-hadoop3" >> $GITHUB_ENV
+        SPARK_VERSION="3.4.1"
+        wget https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop3.tgz
+        tar -xzf spark-${SPARK_VERSION}-bin-hadoop3.tgz
+        mv spark-${SPARK_VERSION}-bin-hadoop3 /opt/spark
+        echo "SPARK_HOME=/opt/spark" >> $GITHUB_ENV
+        echo "/opt/spark/bin" >> $GITHUB_PATH
 
     - name: Set up sbt
       uses: sbt/setup-sbt@v1
