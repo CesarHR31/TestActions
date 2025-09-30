@@ -44,7 +44,7 @@ class Flujobasetest extends UnitSpecWithDatabase
 
     /*Se estable el contexto para logger*/
     val context = org.apache.logging.log4j.LogManager.getContext(false).asInstanceOf[org.apache.logging.log4j.core.LoggerContext]
-    val file = new File(s"$USER_DIR\\src\\main\\resources\\log4j2config.xml")
+    val file = new File(Paths.get("src", "main", "resources", "log4j2config.xml").toAbsolutePath.toString)//new File(s"$USER_DIR\\src\\main\\resources\\log4j2config.xml")
     context.setConfigLocation(file.toURI)
   }
 
