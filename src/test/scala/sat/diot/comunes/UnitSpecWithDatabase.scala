@@ -37,8 +37,10 @@ println("<<<" + tmpDirPath + ">>>")
     super.beforeAll()
     spark.sql(s"CREATE DATABASE $dbName LOCATION 'file:///$tmpDirPath\\\\testing.db'")
 
-    val rutaArchivosDatabricks =
-      s"$UserDir\\src\\main\\resources\\databricks\\tables"
+    val rutaArchivosDatabricks = Paths.get("src", "main", "resources", "databricks", "tables")
+      .toAbsolutePath
+      .toString
+      //s"$UserDir\\src\\main\\resources\\databricks\\tables"
 
     spark.sql(
       s"CREATE DATABASE IF NOT EXISTS default LOCATION 'file:///$tmpDirPath\\\\default.db'"
