@@ -26,9 +26,14 @@ jobs:
     - name: Set up sbt
       uses: sbt/setup-sbt@v1
 
-    - name: Run ScalaTest
-      run: sbt "testOnly sat.diot.general.GeneralTest Execute SQL query"
+    - name: Set up Docker
+      uses: docker/setup-docker-action@v4
 
-    - name: Run ScalaTest Logger
-      run: sbt "testOnly sat.diot.Logger.TestLogger Logg Error"
+    - name: Run Flujo Base DIOT
+      run: sbt "testOnly sat.diot.flujobase.Flujobasetest *Flujo Base"
+    # - name: Run ScalaTest
+    #  run: sbt "testOnly sat.diot.general.GeneralTest Execute SQL query"
+
+    # - name: Run ScalaTest Logger
+    #  run: sbt "testOnly sat.diot.Logger.TestLogger Logg Error"
       
