@@ -29,6 +29,9 @@ jobs:
     - name: Set up Docker
       uses: docker/setup-docker-action@v4
 
+    - name: Run Docker
+      uses: addnab/docker-run-action@v3
+
     - name: Run Flujo Base DIOT
       run: sbt "testOnly sat.diot.flujobase.Flujobasetest *Flujo Base"
     # - name: Run ScalaTest
