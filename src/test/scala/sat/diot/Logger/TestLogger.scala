@@ -32,7 +32,7 @@ class TestLogger extends DatabricksSecretsSpec  {
   test("Logg Error") {
     lazy val logger = org.apache.logging.log4j.LogManager.getLogger(ConfigurationProvider.nombreProyecto)
 
-    logger.info("Test INFO API!")
+    logger.info("Test INFO API [Git Hub Actions]!")
     logger.info(ScopeName)
     logger.warn(ConfigurationProviderSecretsLocal.DWHDeclaracionesappInsights)
 
