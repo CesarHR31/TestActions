@@ -30,7 +30,7 @@ jobs:
       uses: docker/setup-docker-action@v4
 
     - name: Run Docker
-      uses: addnab/docker-run-action@v3
+      run: sudo systemctl start docker
 
     - name: Run Flujo Base DIOT
       run: sbt "testOnly sat.diot.flujobase.Flujobasetest *Flujo Base"
