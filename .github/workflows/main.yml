@@ -26,9 +26,11 @@ jobs:
     - name: Set up sbt
       uses: sbt/setup-sbt@v1
 
-    - name: Setup and Run Docker
+    - name: Install docker
+      uses: papodaca/install-docker-action@main
+      
+    - name: Run Docker
       run: |
-        sudo apt-get install -y docker.io
         sudo systemctl start docker
         sudo systemctl enable docker
 
