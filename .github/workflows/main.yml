@@ -33,4 +33,4 @@ jobs:
       run: sbt compile
 
     - name: Run ScalaTest
-      run: sbt src/test/scala/sat/diot/general/GeneralTest.scala
+      run: sbt ./src/test/scala/sat/diot/general/GeneralTest.scala
