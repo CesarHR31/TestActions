@@ -26,11 +26,9 @@ jobs:
     - name: Set up sbt
       uses: sbt/setup-sbt@v1
 
-    - name: Clean with sbt
-      run: sbt clean
-
-    - name: Compile with sbt
-      run: sbt compile
-
     - name: Run ScalaTest
       run: sbt "testOnly sat.diot.general.GeneralTest Execute SQL query"
+
+    - name: Run ScalaTest Logger
+      run: sbt "testOnly sat.diot.Logger.TestLogger Logg Error"
+      
