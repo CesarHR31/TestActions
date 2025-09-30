@@ -1,0 +1,21 @@
+INSERT INTO $ultimavigentebronce$
+SELECT partitionkey,
+           rowkey,
+           timestamp,
+           concepto,
+           rfc,
+           numerooperacion,
+           fechadeclaracion,
+           ejercicio,
+           periodicidad,
+           periodo,
+           tipodeclaracion,
+           tipocomplementaria,
+           estatusdeclaracion,
+           identificadordeclaracion,
+           identificadordeclaracionpadre,
+           identificadordeclaracionraiz,
+           idejecucion,
+           current_timestamp AS fechacarga,
+           p_timestamp
+FROM $ultimavigenteland$

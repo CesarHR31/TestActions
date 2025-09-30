@@ -1,0 +1,18 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/.bsp/
+/.idea/
+/project/
+/target/
+/spark-warehouse/
+/src/main/resources/terraform/.metals
+/src/main/resources/terraform/.terraform
+/src/main/resources/terraform/.terraform.lock.hcl
+/src/main/resources/terraform/.vscode
+/src/main/resources/terraform/*.tfvars
+/src/main/resources/terraform/*.databrickscfg
+/src/main/resources/databricks/despliegue/
+!/src/main/resources/terraform/template.tfvars
+!/src/main/resources/terraform/template.databrickscfg
+/consultaTerceros/

@@ -1,0 +1,6 @@
+package sat.diot.comunes
+
+object EnumConciliacion extends Enumeration{
+  type EnumConciliacion = Value
+  val identificadorTablaContadorFecha, identificadorTablaConteosBronce, identificadorTablaConteosCuarentena, identificadorTablaContadorFechaPresentacion, identificadorTablaConteosLand, identificadorTablaConteosOro, identificadorTablaConteosPlata, identificadorTablaContadorPostgreSql, identificadorTablaListadoFechaPresentacion, identificadorTablaListadoRecepcion, identificadorTablaReingresoCsv = Value
+}

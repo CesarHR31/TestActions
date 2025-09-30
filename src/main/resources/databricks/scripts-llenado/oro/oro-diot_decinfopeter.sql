@@ -1,0 +1,50 @@
+INSERT INTO $diot_decinfopeter$
+SELECT
+    identidecla.rfcdeclarante AS rfcdeclarante,
+    contribuyente.bo_id AS bo_id,
+    identidecla.numeroOperacion AS numerooperacion,
+    identidecla.fechaPresentacion AS fechapresentacion,
+    contribuyente.tipopersona AS tipopersona,
+    contribuyente.apellidopaterno AS apellidopaterno,
+    contribuyente.apellidomaterno AS apellidomaterno,
+    contribuyente.nombre AS nombre,
+    contribuyente.razonsocial AS razonsocial,
+    contribuyente.razonsocialhistorica as razonsocialhistorica,
+    declaracion.idtiposoc AS idtiposoc,
+    declaracion.desctiposoc AS desctiposoc,
+    contribuyente.iddesconcentrada AS iddesconcentrada,
+    contribuyente.desdesconcentrada AS desdesconcentrada,
+    identidecla.verformu AS verformu,
+    contribuyente.fechaingresoapp AS fechaingresoapp,
+    identidecla.ejercicio AS ejercicio,
+    declaracion.peridiocidad AS peridiocidad,
+    declaracion.periodo AS periodo,
+    declaracion.tipodeclara AS tipodeclara,
+    declaracion.tipocomp AS tipocomp,
+    contribuyente.obligaciones AS obligaciones,
+    declaracion.vencimientoobligacion AS vencimientoobligacion,
+    declaracion.mediopresentacion AS mediopresentacion,
+    declaracion.alsc AS alsc,
+    totales.totaloperacionesrelaciona AS totaloperacionesrelaciona,
+    totales.determinivaacreasocact AS determinivaacreasocact,
+    totales.montotactacticausimpperiodecla AS montotactacticausimpperiodecla,
+    totales.montotactactireaperdecla AS montotactactireaperdecla,
+    totales.montotactacticauimpaniocalinmant AS montotactacticauimpaniocalinmant,
+    totales.montotactactireaniocalinmant AS montotactactireaniocalinmant,
+    totales.proporcionacreditamiento AS proporcionacreditamiento,
+    totales.aplicasteestimulosfiscales AS aplicasteestimulosfiscales,
+    id_ejecucion AS id_ejecucion,
+    fechadesdoble AS fechacargadwh,
+    FROM_UTC_TIMESTAMP(CURRENT_TIMESTAMP, "America/Mexico_City") AS fechadesdoble,
+    date_trunc('MM', fechaPresentacion) AS p_fechapresentacion,
+    'I' AS operacion,
+    declaracion.periodicidadDesc AS periodicidadDesc,
+    declaracion.periododesc AS periododesc,
+    declaracion.tipoDeclaDesc AS tipoDeclaDesc,
+    declaracion.tipoComplementIdDesc AS tipoComplementIdDesc
+FROM(
+    SELECT *, explode(admindeclaracion) AS explodedAdmin
+    FROM $plata_diot_decinfopeter$
+    WHERE id_ejecucion = '$IDBATCH$' or numeroOperacion in ($NUMEROSOPERACION$) 
+    AND admindeclaracion IS NOT NULL $PARTITION_FILTER$
+);

@@ -1,0 +1,336 @@
+{
+  "postgresqlControlUrl": {
+    "scope": "NPSI-Declaraciones",
+    "key": "controlDWH-DIOTconnStr"
+  },
+  "controlServidor": {
+    "scope": "NPSI-Declaraciones",
+    "key": "controlDWH-server"
+  },
+  "controlPuerto": {
+    "scope": "NPSI-Declaraciones",
+    "key": "controlDWH-puerto"
+  },
+  "controlBd": {
+    "scope": "NPSI-Declaraciones",
+    "key": "controlDWH-bd"
+  },
+  "controlUsuario": {
+    "scope": "NPSI-Declaraciones",
+    "key": "controlDWH-DIOTusr"
+  },
+  "controlPass": {
+    "scope": "NPSI-Declaraciones",
+    "key": "controlDWH-DIOTpass"
+  },
+  "storageControlConnString": {
+    "scope": "NPSI-Declaraciones",
+    "key": "diot-connStrTableStorage-OrigenListadoRecepcion"
+  },
+  "citusServidor": {
+    "scope": "NPSI-Declaraciones",
+    "key": "citusDWH-server"
+  },
+  "citusPuerto": {
+    "scope": "NPSI-Declaraciones",
+    "key": "citusDWH-puerto"
+  },
+  "citusUsuario": {
+    "scope": "NPSI-Declaraciones",
+    "key": "citusDWH-DIOTusr"
+  },
+  "citusPass": {
+    "scope": "NPSI-Declaraciones",
+    "key": "citusDWH-DIOTpass"
+  },
+  "citusBd": {
+    "scope": "NPSI-Declaraciones",
+    "key": "citusDWH-bd"
+  },
+  "sasBlobStorage": {
+    "scope": "NPSI-Declaraciones",
+    "key": "diot-sasBlobStorage-OrigenJsonDescargas"
+  },
+  "databases": [
+    {
+      "name": "dec_inf_diotl_bronce",
+      "tables": [
+        {
+          "name": "bronce_diot",
+          "idTabla": 5197,
+          "id": "identificadorTablaBronce"
+        },
+        {
+          "name": "vistabronce_diot",
+          "idTabla": 0,
+          "id": "identificadorVistaBronce"
+        },
+        {
+          "name": "vistacuarentena_diot",
+          "idTabla": 0,
+          "id": "identificadorVistaCuarentena"
+        },
+        {
+          "name": "ultimadeclaracionvigente",
+          "idTabla": 5198,
+          "id": "identificadorUltimaDeclaracionVigente_bronce"
+        }
+      ]
+    },
+    {
+      "name": "dec_inf_diotl_land",
+      "tables": [
+        {
+          "name": "land_diot",
+          "idTabla": 5195,
+          "id": "identificadorTablaLand"
+        },
+        {
+          "name": "ultimadeclaracionvigente",
+          "idTabla": 5196,
+          "id": "identificadorUltimaDeclaracionVigente_land"
+        }
+      ]
+    },
+    {
+      "name": "diot_ctl",
+      "tables": [
+        {
+          "name": "cifrascontrolbronce",
+          "idTabla": 0,
+          "id": "identificadorTablaCifrasBronce"
+        },
+        {
+          "name": "cifrascontrolplata",
+          "idTabla": 0,
+          "id": "identificadorTablaCifrasPlata"
+        },
+        {
+          "name": "cifrascontroloro",
+          "idTabla": 0,
+          "id": "identificadorTablaCifrasOro"
+        },
+        {
+          "name": "conciliacion_diot",
+          "idTabla": 0,
+          "id": "identificadorTablaConciliacion"
+        },
+        {
+          "name": "deltasdeclaracionesvigentes",
+          "idTabla": 0,
+          "id": "identificadorTablaCtlVigencia"
+        }
+      ]
+    },
+    {
+      "name": "dec_inf_diotl_plata",
+      "tables": [
+        {
+          "name": "diot_decinfopeter_plata",
+          "id": "identificadorTablaPlata_diot_decinfopeter",
+          "idTabla": 5201
+        },
+        {
+          "name": "diot_infterdetiva_plata",
+          "id": "identificadorTablaPlata_diot_infterdetiva",
+          "idTabla": 5202
+        },
+        {
+          "name": "diot_inftotimpiva_plata",
+          "id": "identificadorTablaPlata_diot_inftotimpiva",
+          "idTabla": 5203
+        },
+        {
+          "name": "ultimadeclaracionvigente",
+          "id": "identificadorTablaVigenciaPlata",
+          "idTabla": 5200
+        }
+      ]
+    },
+    {
+      "name": "dec_inf_diotl",
+      "tables": [
+        {
+          "name": "ultimadeclaracionvigente_diot",
+          "idTabla": 5199,
+          "id": "identificadorTablaVigenciaOro"
+        },
+        {
+          "name": "diot_decinfopeter",
+          "idTabla": 5192,
+          "id": "identificadorTablaOro_decinfopeter"
+        },
+        {
+          "name": "diot_infterdetiva",
+          "idTabla": 5193,
+          "id": "identificadorTablaOro_infterdetiva"
+        },
+        {
+          "name": "diot_inftotimpiva",
+          "idTabla": 5194,
+          "id": "identificadorTablaOro_inftotimpiva"
+        }
+      ]
+    },
+    {
+      "name": "ctl_diot_conciliacion",
+      "tables": [
+        {
+          "name": "bitacora_contador_fecha",
+          "idTabla": 0,
+          "id": "identificadorTablaContadorFecha"
+        },
+        {
+          "name": "contadorbronce",
+          "idTabla": 0,
+          "id": "identificadorTablaConteosBronce"
+        },
+        {
+          "name": "contadorcuarentena",
+          "idTabla": 0,
+          "id": "identificadorTablaConteosCuarentena"
+        },
+        {
+          "name": "contadorfechapresentacion",
+          "idTabla": 0,
+          "id": "identificadorTablaContadorFechaPresentacion"
+        },
+        {
+          "name": "contadorland",
+          "idTabla": 0,
+          "id": "identificadorTablaConteosLand"
+        },
+        {
+          "name": "contadororo",
+          "idTabla": 0,
+          "id": "identificadorTablaConteosOro"
+        },
+        {
+          "name": "contadorplata",
+          "idTabla": 0,
+          "id": "identificadorTablaConteosPlata"
+        },
+        {
+          "name": "contadorpostgresql",
+          "idTabla": 0,
+          "id": "identificadorTablaContadorPostgreSql"
+        },
+        {
+          "name": "listadofechapresentacion",
+          "idTabla": 0,
+          "id": "identificadorTablaListadoFechaPresentacion"
+        },
+        {
+          "name": "listadorecepcion",
+          "idTabla": 0,
+          "id": "identificadorTablaListadoRecepcion"
+        },
+        {
+          "name": "reingreso_csv",
+          "idTabla": 0,
+          "id": "identificadorTablaReingresoCsv"
+        }
+      ]
+    },
+    {
+      "name": "ctl_diot_staging",
+      "tables": [
+        {
+          "name": "faltantesbronce",
+          "idTabla": 0,
+          "id": "identificadorTablaFaltantesBronce"
+        },
+        {
+          "name": "faltantesland",
+          "idTabla": 0,
+          "id": "identificadorTablaFaltantesLand"
+        },
+        {
+          "name": "faltantesoro",
+          "idTabla": 0,
+          "id": "identificadorTablaFaltantesOro"
+        },
+        {
+          "name": "faltantesplata",
+          "idTabla": 0,
+          "id": "identificadorTablaFaltantesPlata"
+        },
+        {
+          "name": "faltantespostgresql",
+          "idTabla": 0,
+          "id": "identificadorTablaFaltantesPostgreSql"
+        },
+        {
+          "name": "listadounicoreprocesos",
+          "idTabla": 0,
+          "id": "identificadorTablaListadoUnicoReprocesos"
+        }
+      ]
+    },
+    {
+      "name": "default",
+      "tables": [
+        {
+          "name": "descarga_size_diot",
+          "idTabla": 0,
+          "id": "identificadorTablaDefault_size"
+        },
+        {
+          "name": "diot_descarga_bronce",
+          "idTabla": 0,
+          "id": "identificadorTablaDefault_bronce_temp"
+        },
+        {
+          "name": "diot_descarga_land",
+          "idTabla": 0,
+          "id": "identificadorTablaDefault_land_temp"
+        }
+      ]
+    }
+  ],
+  "obligaciones": "9006",
+  "identificadorBaseBronce": "dec_inf_diotl_bronce",
+  "identificadorBaseLand": "dec_inf_diotl_land",
+  "identificadorBaseControl": "diot_ctl",
+  "identificadorBasePlata": "dec_inf_diotl_plata",
+  "identificadorBaseOro": "dec_inf_diotl",
+  "identificadorBaseConciliacion": "ctl_diot_conciliacion",
+  "identificadorBaseStaging": "ctl_diot_staging",
+  "identificadorWATConsulta": "DeclaracionConceptoFecha",
+  "URICuentaStorageArchivosJSON": {
+    "scope": "NPSI-Declaraciones",
+    "key": "diot-sasBlobStorage-OrigenJsonDescargasURL"
+  },
+  "applicationInsightsKey": {
+    "scope": "NPSI-Declaraciones",
+    "key": "DWH-Declaraciones-appInsights"
+  },
+  "proyecto": "DIOT",
+  "mountCSVNPSI": "/mnt/imp-internos-oro/Informativas/Dec_terceros/Diot_linea/",
+  "prefijoCsvDeltasOro": "dec_inf_diotl_",
+  "identificadorCapa": "Datos",
+  "identificadorAplicacion": "DIOT",
+  "identificadorAmbiente": "UAT",
+  "identificadorCodigoAplicacion": "10001",
+  "identificadorOrigen": "Databricks",
+  "identificadorPorcentajeCuarentenaPermitido": 2,
+  "identificadorFechaUltimaVigenciaOro": "2016-01-01 00:00:00",
+  "identificadorEsquemaCitus": "dd_dyp_inf",
+  "identificadorTablaUltimaDeclaracionVigente": "ultimadeclaracionvigente_diot",
+  "identificadorIdTablaUltimaDeclaracionVigenteCitus": 5199,
+  "identificadorTablaPartitionsKeysRfc": "partitionskeysrfc",
+  "identificadorTablaPartitionsKeysRfcObligaciones": "partitionskeysrfcobligacion",
+  "identificadorIdProceso": 2012,
+  "idEstadoProceso": 9,
+  "ejercicioDeclaracion": "2016",
+  "identificadorEsquemaBitacorasSingle": "bitacoras_dyp",
+  "identificadorTablaContadorReporte": "bitacora_contador_fecha",
+  "identificadorTablaContadorPSQLPostgreSQL": "contador_postgresql",
+  "identificadorTablaBitacoraReprocesosSingle": "bitacorareprocesos",
+  "identificadorReintentosReprocesamiento": 3,
+  "identificadorPathCsvFaltantes": "/mnt/imp-internos-land/",
+  "limiteArchivosNormales": 200,
+  "limiteArchivosGrandes": 1600,
+  "agrupacionSurferJson": 1000,
+  "idTipoProcesoDatos": "3"
+  }

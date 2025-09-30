@@ -1,0 +1,22 @@
+package sat.diot.comunes.config
+
+case class ConfigurationDefinitionSecretsLocal(scopeName: String,
+                                               azureConnStringAplicativo: String,
+                                               azureConnStringAplicativoUat: String,
+                                               endPointSASDEV: String,
+                                               endPointSASUAT: String,
+                                               storageConnStringListadosRecepcion: String,
+                                               storageConnStringListadosRecepcion2020: String,
+                                               storageConnStringListadosRecepcion2021: String,
+                                               storageConnStringListadosRecepcion2022: String,
+                                               storageConnStringListadosRecepcion2023: String,
+                                               storageConnStringListadosRecepcion2024: String,
+                                               storageConnStringListadosRecepcion2025: String,
+                                               controlDWHServer: String,
+                                               controlDWHPuerto: String,
+                                               controlDWHBd: String,
+                                               controlDWHDIOTusr: String,
+                                               controlDWHDIOTpass: String,
+                                               sasBlobStorageOrigenJsonDescargas: String,
+                                               DWHDeclaracionesappInsights: String,
+                                               diotSasBlobStorageOrigenJsonDescargasURL: String)

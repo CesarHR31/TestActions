@@ -1,0 +1,624 @@
+{"tabla": "diot_decinfopeter","campo": "rfcdeclarante","valorEsperado": "OWTR9030879R"}
+{"tabla": "diot_decinfopeter","campo": "bo_id","valorEsperado": "LYKNSMYOF"}
+{"tabla": "diot_decinfopeter","campo": "numerooperacion","valorEsperado": "227945685719"}
+{"tabla": "diot_decinfopeter","campo": "fechapresentacion","valorEsperado": "2023-11-05 21:40:28"}
+{"tabla": "diot_decinfopeter","campo": "tipopersona","valorEsperado": "Y"}
+{"tabla": "diot_decinfopeter","campo": "apellidopaterno","valorEsperado": "ASKYTNBNUJFQQESQDIRUHIKHBIQFZSWQFPQBIULHXMDUKZCECEARGOKWQRGCGYMDLJOSUEYEFOFTGURXREOYEZJVRZKZPTGUGPNRINXDNLWOTJVOYTCCVDKCDFDTBLMMHODWABOSDGGGDWANGYIIIMJDCISUDFMBCQUZNKHFXUOOXFFIOWRWGQYSBYVCYMXPSUJIZKJBPOFOTAQMQOYDOZYIKUWRBKUVCXVFHZMCMVFPQUHBJHRWZNKTMXNAPINXY"}
+{"tabla": "diot_decinfopeter","campo": "apellidomaterno","valorEsperado": "OYKSPOELTUSWGEDAZLAVQKGMOGOJWKVLRWKZSYMHXPMPZXTTEGNQSRKENLXLGAKKGCSFQYTAYJNVHVGSGCRIDMZGJAFSULRWFCAEPFKRXKPCBYOSBBZMRXFRZEOSYCUMXYDRTYIJVQUCEJYZMMRSWDBTPCTPGCHOMDQDSQBITVHISCHCHZEQGJFOQFBSELTNVHNTSWXDXMZOJNBPDSKDL"}
+{"tabla": "diot_decinfopeter","campo": "nombre","valorEsperado": "RMFMDDBFOPNCDLSCWAEKKDGWNXQMFCGIOYPLIDMZMYWUSUNUSQIKMBANZZDZATBFMJFGMAPBGQXJGHTJQNESKLGVTPPKWIKBUEHMTSSWBTUYGDCNGFYYCPZKFYDJFFAENJRKMVRGZLYSVZSGMRCVFYQKYWKJXYURLYMCFFDRBBMZAARQFRBWUWRBKUILXLSQVPXFNDWEPGYGQDMSZAGPUAMUPCDNZJGJPGISETA"}
+{"tabla": "diot_decinfopeter","campo": "razonsocial","valorEsperado": "XWBJXZYOEQEDYVRNNZOIQTCDDQDXMDLZZMMZTZYVBIYITLEBAYHCMOHMCZWNWNCWWPLHUDTGJRKPY"}
+{"tabla": "diot_decinfopeter","campo": "razonsocialhistorica","valorEsperado": "SENDHRCLETEUWILKQFZFOJGBSCDPMRBKBZAYLWAOOESFFMVXXVZHWCAIPPLEBKDGXNBOWPLJGECNWEHCFXIOJGVWXDIAPARGSPMMRDD"}
+{"tabla": "diot_decinfopeter","campo": "idtiposoc","valorEsperado": "MER"}
+{"tabla": "diot_decinfopeter","campo": "desctiposoc","valorEsperado": "KCDTXGVOCLHEEVVYJMDUDAGMNOZWLCDICVFNBQOYRWBCCKHUPVCXETGPLRTYWLGBMRLJWODICOVFYSXQZNBUJLKGCTENNHNFJRUAFKCXBCJXMUSOHOYWNPPCRSUZFFESUVAIWRJBRDFIBHSDSTHJTRSSNIDCOSDHWXL"}
+{"tabla": "diot_decinfopeter","campo": "iddesconcentrada","valorEsperado": "QBSKF"}
+{"tabla": "diot_decinfopeter","campo": "desdesconcentrada","valorEsperado": "GWGCNNRDWEXPXKVBBXMEVGDQFTDZCPXKRARUKCVUWJPCIFZZRZIOSBFFLMBDDNNSQGFNJUPZDGZPCGJRNALUDMSLLXRWGPBGHEIVKSNGTNGMISRMWAYUEWGBOIQ"}
+{"tabla": "diot_decinfopeter","campo": "verformu","valorEsperado": "DONY"}
+{"tabla": "diot_decinfopeter","campo": "fechaingresoapp","valorEsperado": "2023-05-06 08:32:09"}
+{"tabla": "diot_decinfopeter","campo": "ejercicio","valorEsperado": "2023"}
+{"tabla": "diot_decinfopeter","campo": "peridiocidad","valorEsperado": "M"}
+{"tabla": "diot_decinfopeter","campo": "periodo","valorEsperado": "014"}
+{"tabla": "diot_decinfopeter","campo": "tipodeclara","valorEsperado": "005"}
+{"tabla": "diot_decinfopeter","campo": "tipocomp","valorEsperado": "006"}
+{"tabla": "diot_decinfopeter","campo": "obligaciones","valorEsperado": "85"}
+{"tabla": "diot_decinfopeter","campo": "vencimientoobligacion","valorEsperado": "2023-10-09 23:16:19"}
+{"tabla": "diot_decinfopeter","campo": "mediopresentacion","valorEsperado": "0"}
+{"tabla": "diot_decinfopeter","campo": "alsc","valorEsperado": "ZFQOJ"}
+{"tabla": "diot_decinfopeter","campo": "totaloperacionesrelaciona","valorEsperado": "92701021377944"}
+{"tabla": "diot_decinfopeter","campo": "determinivaacreasocact","valorEsperado": "02"}
+{"tabla": "diot_decinfopeter","campo": "montotactacticausimpperiodecla","valorEsperado": "7719403672613443"}
+{"tabla": "diot_decinfopeter","campo": "montotactactireaperdecla","valorEsperado": "6080190709349758"}
+{"tabla": "diot_decinfopeter","campo": "montotactacticauimpaniocalinmant","valorEsperado": "8961146472959203"}
+{"tabla": "diot_decinfopeter","campo": "montotactactireaniocalinmant","valorEsperado": "1736349388067802"}
+{"tabla": "diot_decinfopeter","campo": "proporcionacreditamiento","valorEsperado": "Q"}
+{"tabla": "diot_decinfopeter","campo": "aplicasteestimulosfiscales","valorEsperado": "00"}
+
+{"tabla": "diot_infterdetiva","campo": "rfcdeclarante","valorEsperado": "OWTR9030879R"}
+{"tabla": "diot_infterdetiva","campo": "bo_id","valorEsperado": "LYKNSMYOF"}
+{"tabla": "diot_infterdetiva","campo": "numerooperacion","valorEsperado": "227945685719"}
+{"tabla": "diot_infterdetiva","campo": "fechapresentacion","valorEsperado": "2023-11-05 21:40:28"}
+{"tabla": "diot_infterdetiva","campo": "razonsocial","valorEsperado": "XWBJXZYOEQEDYVRNNZOIQTCDDQDXMDLZZMMZTZYVBIYITLEBAYHCMOHMCZWNWNCWWPLHUDTGJRKPY"}
+{"tabla": "diot_infterdetiva","campo": "peridiocidad","valorEsperado": "M"}
+{"tabla": "diot_infterdetiva","campo": "periodo","valorEsperado": "014"}
+{"tabla": "diot_infterdetiva","campo": "tipodeclara","valorEsperado": "005"}
+{"tabla": "diot_infterdetiva","campo": "tipocomp","valorEsperado": "006"}
+{"tabla": "diot_infterdetiva","campo": "numeroconsecutivoperacion","valorEsperado": "4171482579240119"}
+{"tabla": "diot_infterdetiva","campo": "tipotercero","valorEsperado": "07"}
+{"tabla": "diot_infterdetiva","campo": "tipoperacion","valorEsperado": "85"}
+{"tabla": "diot_infterdetiva","campo": "rfctercerodeclarado","valorEsperado": "NSPI690802AYZ"}
+{"tabla": "diot_infterdetiva","campo": "numeroidfiscal","valorEsperado": "WDGFNIGLK"}
+{"tabla": "diot_infterdetiva","campo": "nombreextranjero","valorEsperado": "DGVSBTEGYUBNFPRRVVWQYOWHBYDEYZUYNFSXQZMXFGIHGZOGOTNPSNGYLTCDWCSUPZYGGNZAHKFCPMVHZIKZWYVPVOTZXFJFLNASYRDCWPIKRJYZIOYYVPCBNUCNDTYTUXISXWDTQJRVUIQKJAFVFFDADGZTJQYTLFKUOAHFJJVPGTWSBSSDBWKSJONEBGBIECRHGNB"}
+{"tabla": "diot_infterdetiva","campo": "paisjurisdiccionresidenciafiscal","valorEsperado": "UXU"}
+{"tabla": "diot_infterdetiva","campo": "especificalugarjurisdiccionfiscal","valorEsperado": "TUHIDOHKTCNLXRYTULDURYSNVCKIYPCMJKHYDLHWQZPNFPDKYMPCGAUAZDMPMJOCMIPJCXXIWPEEALAQLJZTYWPVGULWIMXMAMAAACJMICYEHONUBNNERGEJAPFQOTHJLVQPOFKKEJZZDCCOCMHGGNCNFPQFOWGTOEJVPCMCGACJFHRSOVTLRCYGDXZYHXFCNFODQUMAINJXMAHOZYKUZHSWSRFWXPIBTNCQYWVBKBTJNIVREOLSYOUNIGARBECCAXYGTFCFQLJBDXPHNMXKRCSZZHRGWRMBYMKSRBMJMN"}
+{"tabla": "diot_infterdetiva","campo": "ivaacresumaivaincluimpor","valorEsperado":"3612420718453221"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualapliproppagatasa16iva","valorEsperado":"5174405159895147"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravsumaivaincluimpor","valorEsperado":"1835222645064673"}
+{"tabla": "diot_infterdetiva","campo": "asoactiapliproppagaimporbienintangservtasa16iva","valorEsperado":"5177600218641156"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravrf","valorEsperado":"1828170454698003"}
+{"tabla": "diot_infterdetiva","campo": "ivaacresininclimpor","valorEsperado":"8846712611680984"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrepagaimporbienintangservtasa16","valorEsperado":"8609151910071581"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravpagaimporaduabientangtasa16iva","valorEsperado":"3869805550067394"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravsininclimpor","valorEsperado":"1994570306023068"}
+{"tabla": "diot_infterdetiva","campo": "asoactcualaplproprfs","valorEsperado":"6705003673512468"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravrfs","valorEsperado":"2218131783192320"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropsininclimpor","valorEsperado":"4276432477488322"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualapliproppagaimporaduabientangtasa16iva","valorEsperado":"3572174382776956"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravrfn","valorEsperado":"6689604659239652"}
+{"tabla": "diot_infterdetiva","campo": "asoacticuaaplpropsumaivaincluimpor","valorEsperado":"535017539115222"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrerf","valorEsperado":"3793306048812059"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravpagatasa16iva","valorEsperado":"9502136784557220"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrerfs","valorEsperado":"4155510622988666"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravpagaimporbienintangservtasa16iva","valorEsperado":"8890739406235081"}
+{"tabla": "diot_infterdetiva","campo": "asoactcualaplproprf","valorEsperado":"2071316606100307"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrepagaimpoaduabientangtasa16iva","valorEsperado":"5585895822590586"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrepagatasa16","valorEsperado":"9339405659737064"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrerfn","valorEsperado":"6568451285529234"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplproprfn","valorEsperado":"9752525505411560"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagarfn","valorEsperado":"3145240909430156"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadorfsdet","valorEsperado":"4034649861554223"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonrf","valorEsperado":"8102526240830913"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagarfs","valorEsperado":"9305430141302584"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagarf","valorEsperado":"6096832043814972"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonimporaduabientangtasa16iva","valorEsperado":"8887894616836523"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagarfn","valorEsperado":"7435892126943633"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaagresinincimpor","valorEsperado":"3597477117792826"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactiimporaduabientangtasa16iva","valorEsperado":"1538917497489017"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagatasa16iva","valorEsperado":"1639143669625040"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagarf","valorEsperado":"5767679787273017"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonimporbienintangservtasa16iva","valorEsperado":"723436562572761"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadorfndet","valorEsperado":"1629920151530260"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaimporaduabientangtasa16","valorEsperado":"7837233554175583"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagaimporaduabientangtasa16iva","valorEsperado":"4980655702975965"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactiimporbienintangservtasa16iva","valorEsperado":"5834485288738405"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaimporbienintangservtasa16","valorEsperado":"9544293380780498"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagaimporbienintangservtasa16iva","valorEsperado":"3089953274493101"}
+{"tabla": "diot_infterdetiva","campo": "ivapagsumimpvalagreincluimpor","valorEsperado":"2032100762445974"}
+{"tabla": "diot_infterdetiva","campo": "devdesbontasa16iva","valorEsperado":"5725582222865968"}
+{"tabla": "diot_infterdetiva","campo": "ivapagarf","valorEsperado":"383531575982753"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagarfs","valorEsperado":"5176472013527466"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonrfn","valorEsperado":"8516155414519256"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagatasa16iva","valorEsperado":"3642657122124564"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonrfs","valorEsperado":"1162254585484443"}
+{"tabla": "diot_infterdetiva","campo": "ivapagatasa16det","valorEsperado":"6229550732519316"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagaimpbienservitasa16iva","valorEsperado":"1048292258891134"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaretenido","valorEsperado":"8196825325065081"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadotasa11","valorEsperado":"7792652665705288"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagatasa0iva","valorEsperado":"7623213757288884"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacredirfn","valorEsperado":"4665845397139799"}
+{"tabla": "diot_infterdetiva","campo": "montoivapaganoacreimporbienservtasa16iva","valorEsperado":"1982839735829146"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagtasa16iva","valorEsperado":"2332754338388576"}
+{"tabla": "diot_infterdetiva","campo": "ivapagarfn","valorEsperado":"4563119023234191"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadorfs","valorEsperado":"9753989181384592"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadevdesbonsobadqmercgastgener","valorEsperado":"6414851551181625"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagatasa11iva","valorEsperado":"9580311281580300"}
+{"tabla": "diot_infterdetiva","campo": "ivapagatasa16","valorEsperado":"2856614086490577"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacredirfs","valorEsperado":"3526768035070428"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagarfs","valorEsperado":"2643022350489418"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacreditasa16","valorEsperado":"4666062789373526"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagaimpobienservinopagaivaexento","valorEsperado":"5677534722220781"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagarfn","valorEsperado":"7703941874319815"}
+{"tabla": "diot_infterdetiva","campo": "valactactinoobjiva","valorEsperado":"452928257400976"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaimpbienservitasa16iva","valorEsperado":"1244219837778224"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacreditasa11","valorEsperado":"4215154082585511"}
+{"tabla": "diot_infterdetiva","campo": "valactactipaganopagaivaexe","valorEsperado":"9704608754022236"}
+{"tabla": "diot_infterdetiva","campo": "manidioefecfisccompampoperrealprovdet", "valorEsperado":"02"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagaimporbienservnopagaivaexe", "valorEsperado":"2854947288570058"}
+{"tabla": "diot_infterdetiva","campo": "valactactipaganopagaivaexedet", "valorEsperado":"6093910748966159"}
+{"tabla": "diot_infterdetiva","campo": "valdemaactactipagatasa0iva", "valorEsperado":"4814985597413632"}
+{"tabla": "diot_infterdetiva","campo": "valactactinoobjivarealterrnac", "valorEsperado":"3481842370019943"}
+{"tabla": "diot_infterdetiva","campo": "valactactinoobjivanocontestabterrnac", "valorEsperado":"1146417672421830"}
+{"tabla": "diot_infterdetiva","campo": "ivaretenidocontribupaga", "valorEsperado":"8457289345358510"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexerfs", "valorEsperado":"1892236278037362"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropincluimpor", "valorEsperado":"2936526450228"}
+{"tabla": "diot_infterdetiva","campo": "totpagarf", "valorEsperado":"5911726841062845"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqincluimpor", "valorEsperado":"2421858976361368"}
+{"tabla": "diot_infterdetiva","campo": "asoactcualaplproprfdet", "valorEsperado":"5244953470565125"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqrfn", "valorEsperado":"3842434019628188"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropimporbienintangservtasa16iva", "valorEsperado":"2162667935416101"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqtasa16iva", "valorEsperado":"9796937160113032"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjincluimpor", "valorEsperado":"9217360091686416"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropimporaduabientangtasa16iva", "valorEsperado":"9413180307357980"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqrfs", "valorEsperado":"7204675841605302"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqrf", "valorEsperado":"9106837675845848"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexerf", "valorEsperado":"4110651068284023"}
+{"tabla": "diot_infterdetiva","campo": "totivasininclimpor", "valorEsperado":"1897923904548070"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplproprfndet", "valorEsperado":"4538301485508051"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqimporaduabientangtasa16iva", "valorEsperado":"9208381612934164"}
+{"tabla": "diot_infterdetiva","campo": "totincluimpor", "valorEsperado":"1091027851915098"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeimporbienintangservtasa16iva", "valorEsperado":"2997032067196100"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqivasinincimpor", "valorEsperado":"7840642750064597"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeivasininclimpor", "valorEsperado":"3568498062659365"}
+{"tabla": "diot_infterdetiva","campo": "tottasa16iva", "valorEsperado":"3031169191126631"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjrfs", "valorEsperado":"1895355992111620"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualapliproptasa16iva", "valorEsperado":"7842568900450958"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjrfn", "valorEsperado":"7336536622129746"}
+{"tabla": "diot_infterdetiva","campo": "totpagarfn", "valorEsperado":"6509190087527236"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexetasa16iva", "valorEsperado":"496591384286911"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplproprfsdet", "valorEsperado":"5015323737965453"}
+{"tabla": "diot_infterdetiva","campo": "totimporbienintangservtasa16iva", "valorEsperado":"8234905166467190"}
+{"tabla": "diot_infterdetiva","campo": "totpagarfs", "valorEsperado":"6723126030319495"}
+{"tabla": "diot_infterdetiva","campo": "asoactiaplipropivasininclimpor", "valorEsperado":"904952600888893"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjrf", "valorEsperado":"256971112984204"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeimporaduabientangtasa16iva", "valorEsperado":"4394485632854992"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqimporbienintangservtasa16iva", "valorEsperado":"9436665528095382"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjimporbienintangservtasa16iva", "valorEsperado":"8328282570054655"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeincluimpor", "valorEsperado":"8955760602871802"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjtasa16iva", "valorEsperado":"6921641866114288"}
+{"tabla": "diot_infterdetiva","campo": "totimporaduabientangtasa16iva", "valorEsperado":"9070099817750964"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexerfn", "valorEsperado":"148166517068188"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjivasininclimpor", "valorEsperado":"50558005267392"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjimporaduabientangtasa16iva", "valorEsperado":"6930277408258550"}.
+{"tabla": "diot_infterdetiva","campo": "fila", "valorEsperado":"1"}
+
+{"tabla": "diot_infterdetiva","campo": "rfcdeclarante","valorEsperado": "OWTR9030879R"}
+{"tabla": "diot_infterdetiva","campo": "bo_id","valorEsperado": "LYKNSMYOF"}
+{"tabla": "diot_infterdetiva","campo": "numerooperacion","valorEsperado": "227945685719"}
+{"tabla": "diot_infterdetiva","campo": "fechapresentacion","valorEsperado": "2023-11-05 21:40:28"}
+{"tabla": "diot_infterdetiva","campo": "razonsocial","valorEsperado": "XWBJXZYOEQEDYVRNNZOIQTCDDQDXMDLZZMMZTZYVBIYITLEBAYHCMOHMCZWNWNCWWPLHUDTGJRKPY"}
+{"tabla": "diot_infterdetiva","campo": "peridiocidad","valorEsperado": "M"}
+{"tabla": "diot_infterdetiva","campo": "periodo","valorEsperado": "014"}
+{"tabla": "diot_infterdetiva","campo": "tipodeclara","valorEsperado": "005"}
+{"tabla": "diot_infterdetiva","campo": "tipocomp","valorEsperado": "006"}
+{"tabla": "diot_infterdetiva","campo": "numeroconsecutivoperacion","valorEsperado": "2440843676885123"}
+{"tabla": "diot_infterdetiva","campo": "tipotercero","valorEsperado": "11"}
+{"tabla": "diot_infterdetiva","campo": "tipoperacion","valorEsperado": "16"}
+{"tabla": "diot_infterdetiva","campo": "rfctercerodeclarado","valorEsperado": "VOOU8110058U5"}
+{"tabla": "diot_infterdetiva","campo": "numeroidfiscal","valorEsperado": "XFIIIUSKBCXNZOKVQBFNNSNDKYNIKDMDBZYRAYE"}
+{"tabla": "diot_infterdetiva","campo": "nombreextranjero","valorEsperado": "SUIGLZFQWRXJHAJXPHAJNXFSOLORRKKDQWCFSIVJJOMUKVKKLYDEOMKWPSMFMHUXMFACVTOBUTSTIWMEXYGBZUYJDHQAZXWKGEWXKOWIJRIGODHKASHFTQZPUPUNJWECBOBGKJPGANPAIDNMGCWKKUJSZVBYEVIDZOABEAFKEOBCGIXTNZUMDKZNWDWYXWPFIJQUJTXIBUPVOVPPBYCQSTVIARPOOXEPKUNZSZAUWFWLWRYGWUABQRRJHGMKO"}
+{"tabla": "diot_infterdetiva","campo": "paisjurisdiccionresidenciafiscal","valorEsperado": "THW"}
+{"tabla": "diot_infterdetiva","campo": "especificalugarjurisdiccionfiscal","valorEsperado": "RJAJAAUWMPGBMYLCQYOPNXKCBQLVCPMXCNTHGZRKGPZSRALXPEVBJUREFVSKODPSMJLBTZAIDVJSULFNAQBRTPBCJTLTTEKMUYYCSLPGIZKKZNISUWIFBDONMUAATUUXPYXKFIFPXCNAQZTYWAAPIVQMJARNZW"}
+{"tabla": "diot_infterdetiva","campo": "ivaacresumaivaincluimpor", "valorEsperado":"2935345008965296"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualapliproppagatasa16iva", "valorEsperado":"9555279147722488"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravsumaivaincluimpor", "valorEsperado":"9265802642447212"}
+{"tabla": "diot_infterdetiva","campo": "asoactiapliproppagaimporbienintangservtasa16iva", "valorEsperado":"8872561123867829"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravrf", "valorEsperado":"1299462559772531"}
+{"tabla": "diot_infterdetiva","campo": "ivaacresininclimpor", "valorEsperado":"9939091553404470"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrepagaimporbienintangservtasa16", "valorEsperado":"7110367098041560"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravpagaimporaduabientangtasa16iva", "valorEsperado":"3887629883179173"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravsininclimpor", "valorEsperado":"8188459690617096"}
+{"tabla": "diot_infterdetiva","campo": "asoactcualaplproprfs", "valorEsperado":"3604711035415645"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravrfs", "valorEsperado":"4080803802154047"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropsininclimpor", "valorEsperado":"3750386784254140"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualapliproppagaimporaduabientangtasa16iva", "valorEsperado":"5526657182302984"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravrfn", "valorEsperado":"7214604611214228"}
+{"tabla": "diot_infterdetiva","campo": "asoacticuaaplpropsumaivaincluimpor", "valorEsperado":"2975590568771116"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrerf", "valorEsperado":"7111870683585153"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravpagatasa16iva", "valorEsperado":"7727435163169134"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrerfs", "valorEsperado":"5076308423591541"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravpagaimporbienintangservtasa16iva", "valorEsperado":"8034184796264222"}
+{"tabla": "diot_infterdetiva","campo": "asoactcualaplproprf", "valorEsperado":"2681619959911275"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrepagaimpoaduabientangtasa16iva", "valorEsperado":"8675314448770182"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrepagatasa16", "valorEsperado":"2841081574388514"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrerfn", "valorEsperado":"2330034941752670"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplproprfn", "valorEsperado":"2532642792844196"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagarfn", "valorEsperado":"6088719223845189"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadorfsdet", "valorEsperado":"1149504001301058"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonrf", "valorEsperado":"9516809117301044"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagarfs", "valorEsperado":"2030225845111438"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagarf", "valorEsperado":"1277643482456754"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonimporaduabientangtasa16iva", "valorEsperado":"6615708693786622"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagarfn", "valorEsperado":"4939906637943729"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaagresinincimpor", "valorEsperado":"7390032713147874"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactiimporaduabientangtasa16iva", "valorEsperado":"4368949464500427"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagatasa16iva", "valorEsperado":"6981808611223610"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagarf", "valorEsperado":"2040642029372178"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonimporbienintangservtasa16iva", "valorEsperado":"4675368903993893"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadorfndet", "valorEsperado":"1276191594348800"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaimporaduabientangtasa16", "valorEsperado":"4028122170678532"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagaimporaduabientangtasa16iva", "valorEsperado":"6464133196475345"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactiimporbienintangservtasa16iva", "valorEsperado":"3568892282018463"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaimporbienintangservtasa16", "valorEsperado":"983932530529557"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagaimporbienintangservtasa16iva", "valorEsperado":"2898041811008378"}
+{"tabla": "diot_infterdetiva","campo": "ivapagsumimpvalagreincluimpor", "valorEsperado":"2385864782712820"}
+{"tabla": "diot_infterdetiva","campo": "devdesbontasa16iva", "valorEsperado":"8089656128640664"}
+{"tabla": "diot_infterdetiva","campo": "ivapagarf", "valorEsperado":"7978861170327878"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagarfs", "valorEsperado":"1043328806353271"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonrfn", "valorEsperado":"107928183707233"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagatasa16iva", "valorEsperado":"6464014222470621"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonrfs", "valorEsperado":"6170164775415103"}
+{"tabla": "diot_infterdetiva","campo": "ivapagatasa16det", "valorEsperado":"6430218192625159"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagaimpbienservitasa16iva", "valorEsperado":"7790343537920115"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaretenido", "valorEsperado":"7515563837245881"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadotasa11", "valorEsperado":"5947192687720389"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagatasa0iva", "valorEsperado":"4425841383246179"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacredirfn", "valorEsperado":"5244394057835151"}
+{"tabla": "diot_infterdetiva","campo": "montoivapaganoacreimporbienservtasa16iva", "valorEsperado":"5801264335840235"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagtasa16iva", "valorEsperado":"6510666923344016"}
+{"tabla": "diot_infterdetiva","campo": "ivapagarfn", "valorEsperado":"4318131159708616"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadorfs", "valorEsperado":"6798927768229179"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadevdesbonsobadqmercgastgener", "valorEsperado":"1956157799222306"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagatasa11iva", "valorEsperado":"1909401236639164"}
+{"tabla": "diot_infterdetiva","campo": "ivapagatasa16", "valorEsperado":"2204880296852076"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacredirfs", "valorEsperado":"4564316183299643"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagarfs", "valorEsperado":"775643079515529"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacreditasa16", "valorEsperado":"9515739375894858"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagaimpobienservinopagaivaexento", "valorEsperado":"1406789311799712"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagarfn", "valorEsperado":"7725709292048712"}
+{"tabla": "diot_infterdetiva","campo": "valactactinoobjiva", "valorEsperado":"3974895431228363"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaimpbienservitasa16iva", "valorEsperado":"3086306237372112"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacreditasa11", "valorEsperado":"3425716453262031"}
+{"tabla": "diot_infterdetiva","campo": "valactactipaganopagaivaexe", "valorEsperado":"7475279686396286"}
+{"tabla": "diot_infterdetiva","campo": "manidioefecfisccompampoperrealprovdet", "valorEsperado":"01"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagaimporbienservnopagaivaexe", "valorEsperado":"1884907048455212"}
+{"tabla": "diot_infterdetiva","campo": "valactactipaganopagaivaexedet", "valorEsperado":"8045107081416710"}
+{"tabla": "diot_infterdetiva","campo": "valdemaactactipagatasa0iva", "valorEsperado":"7251792561145126"}
+{"tabla": "diot_infterdetiva","campo": "valactactinoobjivarealterrnac", "valorEsperado":"486472378528748"}
+{"tabla": "diot_infterdetiva","campo": "valactactinoobjivanocontestabterrnac", "valorEsperado":"880661395815480"}
+{"tabla": "diot_infterdetiva","campo": "ivaretenidocontribupaga", "valorEsperado":"8993906377644125"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexerfs", "valorEsperado":"1400101839445459"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropincluimpor", "valorEsperado":"6832518558810051"}
+{"tabla": "diot_infterdetiva","campo": "totpagarf", "valorEsperado":"5962044633814610"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqincluimpor", "valorEsperado":"884700833459591"}
+{"tabla": "diot_infterdetiva","campo": "asoactcualaplproprfdet", "valorEsperado":"339804271265698"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqrfn", "valorEsperado":"9971868497373608"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropimporbienintangservtasa16iva", "valorEsperado":"5483402812603182"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqtasa16iva", "valorEsperado":"8060493507410717"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjincluimpor", "valorEsperado":"2639136575086556"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropimporaduabientangtasa16iva", "valorEsperado":"1144492055701882"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqrfs", "valorEsperado":"7939844242414221"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqrf", "valorEsperado":"7609341347945486"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexerf", "valorEsperado":"425079993164392"}
+{"tabla": "diot_infterdetiva","campo": "totivasininclimpor", "valorEsperado":"205059315582859"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplproprfndet", "valorEsperado":"5570656474801433"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqimporaduabientangtasa16iva", "valorEsperado":"825990708067871"}
+{"tabla": "diot_infterdetiva","campo": "totincluimpor", "valorEsperado":"1965843093022760"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeimporbienintangservtasa16iva", "valorEsperado":"1391328220105358"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqivasinincimpor", "valorEsperado":"7573441311106519"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeivasininclimpor", "valorEsperado":"2993964587221380"}
+{"tabla": "diot_infterdetiva","campo": "tottasa16iva", "valorEsperado":"1489133682719236"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjrfs", "valorEsperado":"6554129034355611"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualapliproptasa16iva", "valorEsperado":"4944862374303724"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjrfn", "valorEsperado":"2920378915017553"}
+{"tabla": "diot_infterdetiva","campo": "totpagarfn", "valorEsperado":"8599176510108558"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexetasa16iva", "valorEsperado":"7897382092180326"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplproprfsdet", "valorEsperado":"1782106847059650"}
+{"tabla": "diot_infterdetiva","campo": "totimporbienintangservtasa16iva", "valorEsperado":"2759579128418154"}
+{"tabla": "diot_infterdetiva","campo": "totpagarfs", "valorEsperado":"4918689872760175"}
+{"tabla": "diot_infterdetiva","campo": "asoactiaplipropivasininclimpor", "valorEsperado":"852029763051484"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjrf", "valorEsperado":"3342955773694384"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeimporaduabientangtasa16iva", "valorEsperado":"5877277308542051"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqimporbienintangservtasa16iva", "valorEsperado":"9018811728903428"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjimporbienintangservtasa16iva", "valorEsperado":"6409392642669103"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeincluimpor", "valorEsperado":"6689521006219204"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjtasa16iva", "valorEsperado":"1596322838917808"}
+{"tabla": "diot_infterdetiva","campo": "totimporaduabientangtasa16iva", "valorEsperado":"7196214695032123"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexerfn", "valorEsperado":"5192151204180718"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjivasininclimpor", "valorEsperado":"8657958575071342"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjimporaduabientangtasa16iva", "valorEsperado":"4596779500066049"}
+{"tabla": "diot_infterdetiva","campo": "fila", "valorEsperado":"3"}
+
+{"tabla": "diot_infterdetiva","campo": "rfcdeclarante","valorEsperado": "OWTR9030879R"}
+{"tabla": "diot_infterdetiva","campo": "bo_id","valorEsperado": "LYKNSMYOF"}
+{"tabla": "diot_infterdetiva","campo": "numerooperacion","valorEsperado": "227945685719"}
+{"tabla": "diot_infterdetiva","campo": "fechapresentacion","valorEsperado": "2023-11-05 21:40:28"}
+{"tabla": "diot_infterdetiva","campo": "razonsocial","valorEsperado": "XWBJXZYOEQEDYVRNNZOIQTCDDQDXMDLZZMMZTZYVBIYITLEBAYHCMOHMCZWNWNCWWPLHUDTGJRKPY"}
+{"tabla": "diot_infterdetiva","campo": "peridiocidad","valorEsperado": "M"}
+{"tabla": "diot_infterdetiva","campo": "periodo","valorEsperado": "014"}
+{"tabla": "diot_infterdetiva","campo": "tipodeclara","valorEsperado": "005"}
+{"tabla": "diot_infterdetiva","campo": "tipocomp","valorEsperado": "006"}
+{"tabla": "diot_infterdetiva","campo": "numeroconsecutivoperacion","valorEsperado": "8804262938014949"}
+{"tabla": "diot_infterdetiva","campo": "tipotercero","valorEsperado": "07"}
+{"tabla": "diot_infterdetiva","campo": "tipoperacion","valorEsperado": "87"}
+{"tabla": "diot_infterdetiva","campo": "rfctercerodeclarado","valorEsperado": "NBIQ230110HHA"}
+{"tabla": "diot_infterdetiva","campo": "numeroidfiscal","valorEsperado": "QUQADCCMDXKBAGLWFQLNXWYCGOUWYPRJAZJ"}
+{"tabla": "diot_infterdetiva","campo": "nombreextranjero","valorEsperado": "JENQHJVLGUKHOCIDZVRSUGERQCVTMXGCQUIRVGORNAQGGHWSNTEBPPRDMODOYBFGHUSTZNIUSPPIIZFRVBBYTTMMETJHZCBDRMGAXUTVYMCYOUGQCQPGAJLXSBZKNXRQCXDNAOXTMNEDJFIQNE"}
+{"tabla": "diot_infterdetiva","campo": "paisjurisdiccionresidenciafiscal","valorEsperado": "PMV"}
+{"tabla": "diot_infterdetiva","campo": "especificalugarjurisdiccionfiscal","valorEsperado": "WLEEVTXKUSVZYFWPLUDZKGAHNHJXAPIPRYYFBLILOWTLCGLYSDSPOQBBMEFHJTPYAAZBXGJKMTOUIZHYBVUQCCQUHVDIWSQNKCSVVFRMSWIERMCRYQVWCNQPOQXKJBNBIQNSVNPRZBIOBFFWOQZGBVRLATHQQLUELONUTJBFUOXKNZNMLBTQWURRXUCFEEEFBRQLNHEBKPHUSLUYMLPAPKSMRNSONLSNJJQFTSJEDISZUD"}
+{"tabla": "diot_infterdetiva","campo": "ivaacresumaivaincluimpor", "valorEsperado":"414161276422975"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualapliproppagatasa16iva", "valorEsperado":"795566567055898"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravsumaivaincluimpor", "valorEsperado":"6395536366599693"}
+{"tabla": "diot_infterdetiva","campo": "asoactiapliproppagaimporbienintangservtasa16iva", "valorEsperado":"6636612524404141"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravrf", "valorEsperado":"6797115677192847"}
+{"tabla": "diot_infterdetiva","campo": "ivaacresininclimpor", "valorEsperado":"8652771166173363"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrepagaimporbienintangservtasa16", "valorEsperado":"3334033946861542"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravpagaimporaduabientangtasa16iva", "valorEsperado":"6612115992571499"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravsininclimpor", "valorEsperado":"59383331502909"}
+{"tabla": "diot_infterdetiva","campo": "asoactcualaplproprfs", "valorEsperado":"4391636440880645"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravrfs", "valorEsperado":"7834487319046676"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropsininclimpor", "valorEsperado":"2604199627387238"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualapliproppagaimporaduabientangtasa16iva", "valorEsperado":"371788571562729"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravrfn", "valorEsperado":"4889577193794471"}
+{"tabla": "diot_infterdetiva","campo": "asoacticuaaplpropsumaivaincluimpor", "valorEsperado":"7868644116455194"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrerf", "valorEsperado":"8787281039040588"}
+{"tabla": "diot_infterdetiva","campo": "excluactgravpagatasa16iva", "valorEsperado":"7161340467615934"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrerfs", "valorEsperado":"6426286156495332"}
+{"tabla": "diot_infterdetiva","campo": "excluactigravpagaimporbienintangservtasa16iva", "valorEsperado":"7861690575501838"}
+{"tabla": "diot_infterdetiva","campo": "asoactcualaplproprf", "valorEsperado":"4640706442667913"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrepagaimpoaduabientangtasa16iva", "valorEsperado":"594091546477485"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrepagatasa16", "valorEsperado":"3872479506468240"}
+{"tabla": "diot_infterdetiva","campo": "ivaacrerfn", "valorEsperado":"1228119400830212"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplproprfn", "valorEsperado":"2266299381953880"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagarfn", "valorEsperado":"524093672481810"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadorfsdet", "valorEsperado":"4212285014758952"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonrf", "valorEsperado":"5696437820443495"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagarfs", "valorEsperado":"9424266738073536"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagarf", "valorEsperado":"4255504161030914"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonimporaduabientangtasa16iva", "valorEsperado":"5191243356146517"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagarfn", "valorEsperado":"4250760012388253"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaagresinincimpor", "valorEsperado":"7238423344433051"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactiimporaduabientangtasa16iva", "valorEsperado":"323778356965828"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagatasa16iva", "valorEsperado":"5657952742167636"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactipagarf", "valorEsperado":"1555214782875242"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonimporbienintangservtasa16iva", "valorEsperado":"4316723682130517"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadorfndet", "valorEsperado":"9680387030385538"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaimporaduabientangtasa16", "valorEsperado":"9115248014433404"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagaimporaduabientangtasa16iva", "valorEsperado":"4930782248967394"}
+{"tabla": "diot_infterdetiva","campo": "valnetactactiimporbienintangservtasa16iva", "valorEsperado":"4802239247335358"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaimporbienintangservtasa16", "valorEsperado":"9465184148025036"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagaimporbienintangservtasa16iva", "valorEsperado":"5842408502496389"}
+{"tabla": "diot_infterdetiva","campo": "ivapagsumimpvalagreincluimpor", "valorEsperado":"8724735318190373"}
+{"tabla": "diot_infterdetiva","campo": "devdesbontasa16iva", "valorEsperado":"3812464442324604"}
+{"tabla": "diot_infterdetiva","campo": "ivapagarf", "valorEsperado":"6008213322932897"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagarfs", "valorEsperado":"2524434342069294"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonrfn", "valorEsperado":"2298955490631624"}
+{"tabla": "diot_infterdetiva","campo": "valtotactactipagatasa16iva", "valorEsperado":"2513052482453809"}
+{"tabla": "diot_infterdetiva","campo": "devdesbonrfs", "valorEsperado":"4435572022724864"}
+{"tabla": "diot_infterdetiva","campo": "ivapagatasa16det", "valorEsperado":"9458447756122904"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagaimpbienservitasa16iva", "valorEsperado":"3006653015992878"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaretenido", "valorEsperado":"3985178423252596"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadotasa11", "valorEsperado":"1558886821992428"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagatasa0iva", "valorEsperado":"1978600231065908"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacredirfn", "valorEsperado":"2282996001097369"}
+{"tabla": "diot_infterdetiva","campo": "montoivapaganoacreimporbienservtasa16iva", "valorEsperado":"7776809713807950"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagtasa16iva", "valorEsperado":"7769810031371203"}
+{"tabla": "diot_infterdetiva","campo": "ivapagarfn", "valorEsperado":"4890151361415566"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadorfs", "valorEsperado":"6010315971915024"}
+{"tabla": "diot_infterdetiva","campo": "ivapagadevdesbonsobadqmercgastgener", "valorEsperado":"5389533790763979"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagatasa11iva", "valorEsperado":"6899470874380130"}
+{"tabla": "diot_infterdetiva","campo": "ivapagatasa16", "valorEsperado":"7778597329199208"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacredirfs", "valorEsperado":"5248788737011221"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagarfs", "valorEsperado":"3645412163657430"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacreditasa16", "valorEsperado":"1543370247329648"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagaimpobienservinopagaivaexento", "valorEsperado":"8233394961548103"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagarfn", "valorEsperado":"9050951872888200"}
+{"tabla": "diot_infterdetiva","campo": "valactactinoobjiva", "valorEsperado":"5242913268151161"}
+{"tabla": "diot_infterdetiva","campo": "ivapagaimpbienservitasa16iva", "valorEsperado":"5926735054555119"}
+{"tabla": "diot_infterdetiva","campo": "montoivapagadonoacreditasa11", "valorEsperado":"8377196178455902"}
+{"tabla": "diot_infterdetiva","campo": "valactactipaganopagaivaexe", "valorEsperado":"6114126571350219"}
+{"tabla": "diot_infterdetiva","campo": "manidioefecfisccompampoperrealprovdet", "valorEsperado":"02"}
+{"tabla": "diot_infterdetiva","campo": "valactactipagaimporbienservnopagaivaexe", "valorEsperado":"9330719607153890"}
+{"tabla": "diot_infterdetiva","campo": "valactactipaganopagaivaexedet", "valorEsperado":"8347603459753777"}
+{"tabla": "diot_infterdetiva","campo": "valdemaactactipagatasa0iva", "valorEsperado":"2269184923328165"}
+{"tabla": "diot_infterdetiva","campo": "valactactinoobjivarealterrnac", "valorEsperado":"2419617717343692"}
+{"tabla": "diot_infterdetiva","campo": "valactactinoobjivanocontestabterrnac", "valorEsperado":"2006518727047110"}
+{"tabla": "diot_infterdetiva","campo": "ivaretenidocontribupaga", "valorEsperado":"9243056796311408"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexerfs", "valorEsperado":"5547705486548329"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropincluimpor", "valorEsperado":"8393671139083484"}
+{"tabla": "diot_infterdetiva","campo": "totpagarf", "valorEsperado":"9637031195593942"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqincluimpor", "valorEsperado":"9166143806778724"}
+{"tabla": "diot_infterdetiva","campo": "asoactcualaplproprfdet", "valorEsperado":"8942496706252059"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqrfn", "valorEsperado":"5310504970352975"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropimporbienintangservtasa16iva", "valorEsperado":"5297186128893272"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqtasa16iva", "valorEsperado":"2728461555627078"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjincluimpor", "valorEsperado":"7513565529866598"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplipropimporaduabientangtasa16iva", "valorEsperado":"7971073494971489"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqrfs", "valorEsperado":"1848251701811606"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqrf", "valorEsperado":"7357958740952568"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexerf", "valorEsperado":"5753980710776123"}
+{"tabla": "diot_infterdetiva","campo": "totivasininclimpor", "valorEsperado":"261800874382911"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplproprfndet", "valorEsperado":"7807114712519248"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqimporaduabientangtasa16iva", "valorEsperado":"677104628129230"}
+{"tabla": "diot_infterdetiva","campo": "totincluimpor", "valorEsperado":"8859226419839299"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeimporbienintangservtasa16iva", "valorEsperado":"6323832743174874"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqivasinincimpor", "valorEsperado":"2564863898182803"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeivasininclimpor", "valorEsperado":"2371769806897107"}
+{"tabla": "diot_infterdetiva","campo": "tottasa16iva", "valorEsperado":"6064994719906262"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjrfs", "valorEsperado":"384448960773033"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualapliproptasa16iva", "valorEsperado":"2976234737735021"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjrfn", "valorEsperado":"3425261834584641"}
+{"tabla": "diot_infterdetiva","campo": "totpagarfn", "valorEsperado":"2113789733881350"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexetasa16iva", "valorEsperado":"8983670589435487"}
+{"tabla": "diot_infterdetiva","campo": "asoacticualaplproprfsdet", "valorEsperado":"811363504211272"}
+{"tabla": "diot_infterdetiva","campo": "totimporbienintangservtasa16iva", "valorEsperado":"5629081243356948"}
+{"tabla": "diot_infterdetiva","campo": "totpagarfs", "valorEsperado":"5123921338647029"}
+{"tabla": "diot_infterdetiva","campo": "asoactiaplipropivasininclimpor", "valorEsperado":"1233436155489765"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjrf", "valorEsperado":"2836747848462353"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeimporaduabientangtasa16iva", "valorEsperado":"7342035747359006"}
+{"tabla": "diot_infterdetiva","campo": "asonocumpreqimporbienintangservtasa16iva", "valorEsperado":"4153588483956376"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjimporbienintangservtasa16iva", "valorEsperado":"472094432076970"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexeincluimpor", "valorEsperado":"9616732535632200"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjtasa16iva", "valorEsperado":"357546090192228"}
+{"tabla": "diot_infterdetiva","campo": "totimporaduabientangtasa16iva", "valorEsperado":"6916247275365110"}
+{"tabla": "diot_infterdetiva","campo": "asoactiexerfn", "valorEsperado":"9943435805521270"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjivasininclimpor", "valorEsperado":"6626128809481027"}
+{"tabla": "diot_infterdetiva","campo": "asoactinoobjimporaduabientangtasa16iva", "valorEsperado":"1690747814901514"}
+{"tabla": "diot_infterdetiva","campo": "fila", "valorEsperado":"2"}
+
+
+{"tabla": "diot_infterdetiva","campo": "rfcdeclarante","valorEsperado": "OWTR9030879R"}
+{"tabla": "diot_infterdetiva","campo": "bo_id","valorEsperado": "LYKNSMYOF"}
+{"tabla": "diot_infterdetiva","campo": "numerooperacion","valorEsperado": "227945685719"}
+{"tabla": "diot_infterdetiva","campo": "fechapresentacion","valorEsperado": "2023-11-05 21:40:28"}
+{"tabla": "diot_infterdetiva","campo": "razonsocial","valorEsperado": "XWBJXZYOEQEDYVRNNZOIQTCDDQDXMDLZZMMZTZYVBIYITLEBAYHCMOHMCZWNWNCWWPLHUDTGJRKPY"}
+{"tabla": "diot_infterdetiva","campo": "peridiocidad","valorEsperado": "M"}
+{"tabla": "diot_infterdetiva","campo": "periodo","valorEsperado": "014"}
+{"tabla": "diot_infterdetiva","campo": "tipodeclara","valorEsperado": "005"}
+{"tabla": "diot_infterdetiva","campo": "tipocomp","valorEsperado": "006"}
+{"tabla": "diot_infterdetiva","campo": "decreto","valorEsperado": "02"}
+{"tabla": "diot_infterdetiva","campo": "valactactiemiaplicestim","valorEsperado": "5775876524811708"}
+{"tabla": "diot_infterdetiva","campo": "ivanocobapliestimfiscal","valorEsperado": "9844563500323564"}
+{"tabla": "diot_infterdetiva","campo": "valactactireciapliestimfiscal","valorEsperado": "2668719119839015"}
+{"tabla": "diot_infterdetiva","campo": "ivanopagapliestifiscal","valorEsperado": "4190934918652019"}
+
+{"tabla": "diot_inftotimpiva","campo": "rfcdeclarante","valorEsperado": "OWTR9030879R"}
+{"tabla": "diot_inftotimpiva","campo": "bo_id","valorEsperado": "LYKNSMYOF"}
+{"tabla": "diot_inftotimpiva","campo": "numerooperacion","valorEsperado": "227945685719"}
+{"tabla": "diot_inftotimpiva","campo": "fechapresentacion","valorEsperado": "2023-11-05 21:40:28"}
+{"tabla": "diot_inftotimpiva","campo": "razonsocial","valorEsperado": "XWBJXZYOEQEDYVRNNZOIQTCDDQDXMDLZZMMZTZYVBIYITLEBAYHCMOHMCZWNWNCWWPLHUDTGJRKPY"}
+{"tabla": "diot_inftotimpiva","campo": "peridiocidad","valorEsperado": "M"}
+{"tabla": "diot_inftotimpiva","campo": "periodo","valorEsperado": "014"}
+{"tabla": "diot_inftotimpiva","campo": "tipodeclara","valorEsperado": "005"}
+{"tabla": "diot_inftotimpiva","campo": "tipocomp","valorEsperado": "006"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravivaincluimpor", "valorEsperado":"6030616367917886"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproppagatasa16ivatot", "valorEsperado":"4116026237495471"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiapliproppagaimporbienintangservtasa16ivatot", "valorEsperado":"3728567878161430"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproppagarfstot", "valorEsperado":"4537253029202892"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravivaincluimportot", "valorEsperado":"1079496577343580"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravpagaimporaduabientangtasa16ivatot", "valorEsperado":"4294833811327101"}
+{"tabla": "diot_inftotimpiva","campo": "ivaacrepagaimporbienintangservtasa16tot", "valorEsperado":"4003771660117581"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravpagaimporbienintangservtasa16ivatot", "valorEsperado":"5363709568587401"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiaplipropivasininclimportot", "valorEsperado":"261575065960914"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproppagaimporaduabientangtasa16ivatot", "valorEsperado":"8839848352326858"}
+{"tabla": "diot_inftotimpiva","campo": "ivaacreivasininclimpor", "valorEsperado":"1725541146583064"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproppagarf", "valorEsperado":"7727445398896687"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravpagarfn", "valorEsperado":"5525684734421976"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravpagarfs", "valorEsperado":"9313376741175048"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualaplipropivaincluimpor", "valorEsperado":"2072429997703926"}
+{"tabla": "diot_inftotimpiva","campo": "ivaacrepagarfn", "valorEsperado":"7121907762788784"}
+{"tabla": "diot_inftotimpiva","campo": "ivaacreincluimpor", "valorEsperado":"9033594719806814"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproppagarfntot", "valorEsperado":"7746627155712617"}
+{"tabla": "diot_inftotimpiva","campo": "ivaacretotpagatasa16", "valorEsperado":"258239105851873"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravtotpagatasa16iva", "valorEsperado":"5807960886010738"}
+{"tabla": "diot_inftotimpiva","campo": "ivaacrepagarfs", "valorEsperado":"3956069731308087"}
+{"tabla": "diot_inftotimpiva","campo": "ivaacrepagaimpoaduabientangtasa16ivatot", "valorEsperado":"5696564672241497"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravpagarf", "valorEsperado":"3616482795857722"}
+{"tabla": "diot_inftotimpiva","campo": "ivaacrepagarf", "valorEsperado":"6198777130789343"}
+{"tabla": "diot_inftotimpiva","campo": "totactactipagarfn", "valorEsperado":"1623389118976487"}
+{"tabla": "diot_inftotimpiva","campo": "asonocumpreqivasinincimportot", "valorEsperado":"825046039636198"}
+{"tabla": "diot_inftotimpiva","campo": "asoactinoobjtotpagatasa16iva", "valorEsperado":"1237833999802832"}
+{"tabla": "diot_inftotimpiva","campo": "totactactipagaimporbienintangservtasa16iva", "valorEsperado":"4877717457623237"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproptotpagatasa16iva", "valorEsperado":"8294362200520624"}
+{"tabla": "diot_inftotimpiva","campo": "asonocumpreqtotpagatasa16iva", "valorEsperado":"2412587473860139"}
+{"tabla": "diot_inftotimpiva","campo": "asoactexepagaimporbienintangservtasa16iva", "valorEsperado":"8991311469629871"}
+{"tabla": "diot_inftotimpiva","campo": "asoactinoobjsumaivaincluimpor", "valorEsperado":"832988312047742"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiapliproppagaimporbienintangservtasa16ivatota", "valorEsperado":"663435452578223"}
+{"tabla": "diot_inftotimpiva","campo": "asoactinoobjivasininclimportot", "valorEsperado":"2513040674680034"}
+{"tabla": "diot_inftotimpiva","campo": "asonocumpreqpagarf", "valorEsperado":"7583668167825202"}
+{"tabla": "diot_inftotimpiva","campo": "asonocumpreqpagaimporbienintangservtasa16iva", "valorEsperado":"7850973985229532"}
+{"tabla": "diot_inftotimpiva","campo": "asonocumpreqpagarfs", "valorEsperado":"4587609042083090"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiexepagarfs", "valorEsperado":"6211112273106621"}
+{"tabla": "diot_inftotimpiva","campo": "totivasininclimportot", "valorEsperado":"4542364861981608"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiexepagarfn", "valorEsperado":"6013058945153046"}
+{"tabla": "diot_inftotimpiva","campo": "totpagatasa16iva", "valorEsperado":"5589083698576261"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiaplipropivasininclimportota", "valorEsperado":"4761556605874465"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiexetotpagatasa16iva", "valorEsperado":"1931742761040384"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiexepagarf", "valorEsperado":"4168448177905723"}
+{"tabla": "diot_inftotimpiva","campo": "asoactinoobjpagaimporaduabientangtasa16iva", "valorEsperado":"3192329889991327"}
+{"tabla": "diot_inftotimpiva","campo": "asonocumpreqpagarfn", "valorEsperado":"6275523032948176"}
+{"tabla": "diot_inftotimpiva","campo": "totsumaivainluimporta", "valorEsperado":"5317503317938651"}
+{"tabla": "diot_inftotimpiva","campo": "asoactcualapliproppagarfstota", "valorEsperado":"4168642842376453"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualaplipropsumaivaincluimpor", "valorEsperado":"7111299139058271"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiexeivasininclimportot", "valorEsperado":"813736621515644"}
+{"tabla": "diot_inftotimpiva","campo": "asoactinoobjpagarfs", "valorEsperado":"7132877239015576"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproppagarftota", "valorEsperado":"9927149711042710"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiexepagaimporaduabientangtasa16iva", "valorEsperado":"7799991831592694"}
+{"tabla": "diot_inftotimpiva","campo": "asoactinoobjpagarf", "valorEsperado":"2792284369309341"}
+{"tabla": "diot_inftotimpiva","campo": "asonocumpreqsumaivaincluimpor", "valorEsperado":"1426953192921592"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproppagarfntota", "valorEsperado":"8549506617216001"}
+{"tabla": "diot_inftotimpiva","campo": "totactactipagarf", "valorEsperado":"1288230009886696"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiexesumaivaincluimpor", "valorEsperado":"8702377863216681"}
+{"tabla": "diot_inftotimpiva","campo": "asoactinoobjpagarfn", "valorEsperado":"7929747562147008"}
+{"tabla": "diot_inftotimpiva","campo": "totactactipagaimporaduabientangtasa16ivatot", "valorEsperado":"3507993519885836"}
+{"tabla": "diot_inftotimpiva","campo": "asoactinoobjpagaimporbienintangservtasa16iva", "valorEsperado":"8902558291691613"}
+{"tabla": "diot_inftotimpiva","campo": "asoactcualapliproppagaimporaduabientangtasa16ivatota", "valorEsperado":"3753144099207382"}
+{"tabla": "diot_inftotimpiva","campo": "totactactipagarfs", "valorEsperado":"7661323221120465"}
+{"tabla": "diot_inftotimpiva","campo": "asonocumpreqpagaimporaduabientangtasa16iva", "valorEsperado":"3803130452275105"}
+{"tabla": "diot_inftotimpiva","campo": "valactactitotpagatasa16iva", "valorEsperado":"6216591018036175"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagaactactipagarfn", "valorEsperado":"6040602704875731"}
+{"tabla": "diot_inftotimpiva","campo": "devdesbonpagaimporaduabientangtasa16iva", "valorEsperado":"408468269947884"}
+{"tabla": "diot_inftotimpiva","campo": "valactactipagarfstot", "valorEsperado":"5700139234356797"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagaimporbienintangservtasa16tot", "valorEsperado":"5410104795714282"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagaactactipagarfs", "valorEsperado":"4091985288212265"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagaactactipagarf", "valorEsperado":"6199953294392153"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagatotpagatasa16tot", "valorEsperado":"9242506206682640"}
+{"tabla": "diot_inftotimpiva","campo": "valnetactactipagaimporbienintangservtasa16iva", "valorEsperado":"5910207334744186"}
+{"tabla": "diot_inftotimpiva","campo": "valnetactactipagaimporaduabientangtasa16iva", "valorEsperado":"1197222328894015"}
+{"tabla": "diot_inftotimpiva","campo": "valactactipagaimporbienintangservtasa16iva", "valorEsperado":"3440473407780376"}
+{"tabla": "diot_inftotimpiva","campo": "valnetactactipagatasa16ivatot", "valorEsperado":"5629793580036252"}
+{"tabla": "diot_inftotimpiva","campo": "devdesbonactactipagarf", "valorEsperado":"6208518861749944"}
+{"tabla": "diot_inftotimpiva","campo": "valnetactactipagarfntot", "valorEsperado":"3989174790687874"}
+{"tabla": "diot_inftotimpiva","campo": "devdesbonactactipagarfn", "valorEsperado":"5236028279289732"}
+{"tabla": "diot_inftotimpiva","campo": "devdesbonactactipagarfs", "valorEsperado":"9297833627542300"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagasumimpvalagreincluimpor", "valorEsperado":"7131773404184915"}
+{"tabla": "diot_inftotimpiva","campo": "valactactipagarfntota", "valorEsperado":"407879385561261"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagasinincluimpor", "valorEsperado":"5045514542888098"}
+{"tabla": "diot_inftotimpiva","campo": "valnetactactipagarfstot", "valorEsperado":"5124496440816027"}
+{"tabla": "diot_inftotimpiva","campo": "devdesbonpagaimporbienintangservtasa16iva", "valorEsperado":"4477065954949646"}
+{"tabla": "diot_inftotimpiva","campo": "devdesbontotpagatasa16iva", "valorEsperado":"838018352237293"}
+{"tabla": "diot_inftotimpiva","campo": "valactactipagarf", "valorEsperado":"8887357544536203"}
+{"tabla": "diot_inftotimpiva","campo": "valactactipagaimporaduabientangtasa16iva", "valorEsperado":"3793198024625573"}
+{"tabla": "diot_inftotimpiva","campo": "valnetactactipagarftot", "valorEsperado":"1572101406570690"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagaimporaduabientangtasa16tot", "valorEsperado":"2873403221891435"}
+{"tabla": "diot_inftotimpiva","campo": "totivaretecontribu", "valorEsperado":"63458230289447"}
+{"tabla": "diot_inftotimpiva","campo": "totactactinoobjivarealiterrinac", "valorEsperado":"3782397954551503"}
+{"tabla": "diot_inftotimpiva","campo": "totactactinoobjivanocontestabterrinac", "valorEsperado":"3736210029990123"}
+{"tabla": "diot_inftotimpiva","campo": "totactactipagaimporbienservnopagaivaexe", "valorEsperado":"6125981386399840"}
+{"tabla": "diot_inftotimpiva","campo": "totactactipaganopagaivaexe", "valorEsperado":"4947489485402835"}
+{"tabla": "diot_inftotimpiva","campo": "demasactactipagatasa0ivatot", "valorEsperado":"3070268086484390"}
+{"tabla": "diot_inftotimpiva","campo": "valactactipaganopagaivaexentotot", "valorEsperado":"8424286932902666"}
+{"tabla": "diot_inftotimpiva","campo": "valtotactactipagatasa11", "valorEsperado":"474560835588537"}
+{"tabla": "diot_inftotimpiva","campo": "montoivapaganoacretrslacontri", "valorEsperado":"6886834029227933"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagaimpbienservitasa16ivatot", "valorEsperado":"4112866685087859"}
+{"tabla": "diot_inftotimpiva","campo": "montivapaganoacrerfs", "valorEsperado":"4029651861738524"}
+{"tabla": "diot_inftotimpiva","campo": "demasactactipagatasa0iva", "valorEsperado":"7743381446311376"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagadevdesbonsobadqmercgastgenertot", "valorEsperado":"1554185942436183"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagatrslacontri", "valorEsperado":"4666112998173639"}
+{"tabla": "diot_inftotimpiva","campo": "actactinoobjiva", "valorEsperado":"5471186430891178"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagarfstot", "valorEsperado":"3901961480320830"}
+{"tabla": "diot_inftotimpiva","campo": "montivapaganoacretasa16", "valorEsperado":"8979676601917133"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagatasa11tot", "valorEsperado":"2569860776708886"}
+{"tabla": "diot_inftotimpiva","campo": "montivapaganoacreimporbienservtasa16", "valorEsperado":"4364367826064409"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagatasa16tot", "valorEsperado":"7015410412335933"}
+{"tabla": "diot_inftotimpiva","campo": "valactactirfs", "valorEsperado":"8291130140586328"}
+{"tabla": "diot_inftotimpiva","campo": "valtotactactipagatasa16ivatot", "valorEsperado":"4396261066040089"}
+{"tabla": "diot_inftotimpiva","campo": "valactactipagaimpobienservinopagaivaexentotot", "valorEsperado":"9082277311038972"}
+{"tabla": "diot_inftotimpiva","campo": "valactactipagarfntot", "valorEsperado":"8779989328987014"}
+{"tabla": "diot_inftotimpiva","campo": "montivapaganoacretasa11", "valorEsperado":"3586845784008251"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagarfntot", "valorEsperado":"9013017916057604"}
+{"tabla": "diot_inftotimpiva","campo": "montivapaganoacrerfn", "valorEsperado":"5647103774004791"}
+{"tabla": "diot_inftotimpiva","campo": "ivapagretecontribu", "valorEsperado":"5722730649081384"}
+{"tabla": "diot_inftotimpiva","campo": "valactactipagaimpbienservitasa16ivatot", "valorEsperado":"2320908590873838"}
+
+{"tabla": "diot_decinfopeter","campo": "rfcdeclarante","valorEsperado": "TYBF260206GZQ"}
+{"tabla": "diot_decinfopeter","campo": "bo_id","valorEsperado": "OVYPRMCKH"}
+{"tabla": "diot_decinfopeter","campo": "numerooperacion","valorEsperado": "2279456857"}
+{"tabla": "diot_decinfopeter","campo": "tipopersona","valorEsperado": "A"}
+{"tabla": "diot_decinfopeter","campo": "apellidopaterno","valorEsperado": "ASDFGHJHGHSDFGH"}
+{"tabla": "diot_decinfopeter","campo": "apellidomaterno","valorEsperado": "RWEQWERQWERQW"}
+{"tabla": "diot_decinfopeter","campo": "nombre","valorEsperado": "VXZCVZXCV"}
+{"tabla": "diot_decinfopeter","campo": "razonsocial","valorEsperado": "ASDFASDFASD"}
+{"tabla": "diot_decinfopeter","campo": "razonsocialhistorica","valorEsperado": "ASDFASDFA"}
+{"tabla": "diot_decinfopeter","campo": "idtiposoc","valorEsperado": "KJJ"}
+{"tabla": "diot_decinfopeter","campo": "desctiposoc","valorEsperado": "ASDFASD"}
+{"tabla": "diot_decinfopeter","campo": "iddesconcentrada","valorEsperado": "R"}
+{"tabla": "diot_decinfopeter","campo": "desdesconcentrada","valorEsperado": "YUITYUI"}
+{"tabla": "diot_decinfopeter","campo": "verformu","valorEsperado": "JPX"}
+
+{"tabla": "diot_infterdetiva","campo": "rfcdeclarante","valorEsperado": "TYBF260206GZY"}
+{"tabla": "diot_infterdetiva","campo": "bo_id","valorEsperado": "OVYPRMCKH"}
+{"tabla": "diot_infterdetiva","campo": "numerooperacion","valorEsperado": "2279456857"}
+{"tabla": "diot_infterdetiva","campo": "numeroconsecutivoperacion","valorEsperado": "417148257924120"}
+{"tabla": "diot_infterdetiva","campo": "tipotercero","valorEsperado": "10"}
+{"tabla": "diot_infterdetiva","campo": "tipoperacion","valorEsperado": "90"}
+{"tabla": "diot_infterdetiva","campo": "rfctercerodeclarado","valorEsperado": "ALUN570107GAF"}
+{"tabla": "diot_infterdetiva","campo": "numeroidfiscal","valorEsperado": "AAAAAAAA"}
+
+{"tabla": "diot_inftotimpiva","campo": "rfcdeclarante","valorEsperado": "TYBF260206GZA"}
+{"tabla": "diot_inftotimpiva","campo": "bo_id","valorEsperado": "OVYPRMCKH"}
+{"tabla": "diot_inftotimpiva","campo": "numerooperacion","valorEsperado": "2279456857"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravivaincluimpor", "valorEsperado":"6030616367918080"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproppagatasa16ivatot", "valorEsperado":"4116026237499999"}
+{"tabla": "diot_inftotimpiva","campo": "asoactiapliproppagaimporbienintangservtasa16ivatot", "valorEsperado":"3728567878169999"}
+{"tabla": "diot_inftotimpiva","campo": "asoacticualapliproppagarfstot", "valorEsperado":"4537253029209999"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravivaincluimportot", "valorEsperado":"1079496577349999"}
+{"tabla": "diot_inftotimpiva","campo": "excluactigravpagaimporaduabientangtasa16ivatot", "valorEsperado":"4294833811329999"}
+{"tabla": "diot_inftotimpiva","campo": "ivaacrepagaimporbienintangservtasa16tot", "valorEsperado":"4003771660119999"}
