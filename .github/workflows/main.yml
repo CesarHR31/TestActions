@@ -28,5 +28,11 @@ jobs:
     - name: Set up sbt
       uses: sbt/setup-sbt@v1
 
+    - name: Clean with sbt
+      run: sbt clean
+
+    - name: Compile with sbt
+      run: sbt compile
+
     - name: Run ScalaTest
       run: sbt test
