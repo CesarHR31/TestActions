@@ -3,7 +3,7 @@
 /workspace.xml
 /.bsp/
 /.idea/
-/project/
+# /project/
 /target/
 /spark-warehouse/
 /src/main/resources/terraform/.metals
