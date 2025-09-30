@@ -284,8 +284,10 @@ PARTITIONED BY (fechaPresentacion);"""
   }
 
   override protected def afterAll(): Unit = {
-    val rutaArchivosDatabricks =
-      s"$UserDir\\src\\main\\resources\\databricks\\tables"
+    val rutaArchivosDatabricks = Paths.get("src", "main", "resources", "databricks", "tables")
+      .toAbsolutePath
+      .toString
+     // s"$UserDir\\src\\main\\resources\\databricks\\tables"
     println(rutaArchivosDatabricks)
 
         spark.sql(s"DROP DATABASE $dbName CASCADE")
