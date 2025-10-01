@@ -65,6 +65,7 @@ abstract class UnitSpecWithDatabase extends AnyFunSuite with BeforeAndAfterAll {
 
         new File(s"$rutaArchivosDatabricks//$directory")
           .listFiles()
+          .sorted
           //.par
           //.filter(p => !p.getAbsolutePath.toLowerCase().contains("vigente")) //--> quitar para que ejecute todas las capas
           .foreach { file =>
