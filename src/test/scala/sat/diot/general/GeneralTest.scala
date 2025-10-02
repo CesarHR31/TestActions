@@ -4,6 +4,7 @@ import org.scalatest.funsuite.AnyFunSuite
 import sat.diot.comunes.{SparkSessionManager, TSparkSession, Util}
 import sat.diot.entities.SparkQueryEntity
 
+import java.io.File
 import java.nio.file.Paths
 
 class GeneralTest extends AnyFunSuite  {
