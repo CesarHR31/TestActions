@@ -40,5 +40,5 @@ jobs:
     #  run: sbt "testOnly sat.diot.general.GeneralTest Execute SQL query"
 
     # - name: Run ScalaTest Logger
-    #  run: sbt "testOnly sat.diot.Logger.TestLogger Logg Error"
+    #  run: sbt "testOnly sat.diot.Logger.TestLogger Logg Error"asdfdsf
       
