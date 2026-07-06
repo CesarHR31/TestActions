@@ -1,14 +1,16 @@
 name: Scala Build Solution
 
-on:
-  push:
-    branches: [ "main" ]
-    paths: 
-    - 'testSpark/GithubActions/src/main/scala'
-  pull_request:
-    branches: [ "main" ]
-    paths: 
-    - 'testSpark/GithubActions/src/main/scala'
+on: [workflow_dispatch]
+
+# on:
+  # push:
+  #  branches: [ "main" ]
+  #  paths: 
+  #  - 'testSpark/GithubActions/src/main/scala'
+  #pull_request:
+  #  branches: [ "main" ]
+  #  paths: 
+  #  - 'testSpark/GithubActions/src/main/scala'
 
 permissions:
   contents: read
