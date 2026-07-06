@@ -1,0 +1,11 @@
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Scala ###
+.bsp/
+.idea/
+project/
+target/
