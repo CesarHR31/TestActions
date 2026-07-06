@@ -7,8 +7,8 @@ on:
     - 'testSpark/GithubActions/src/main/scala'
   pull_request:
     branches: [ "main" ]
-     paths: 
-     - 'testSpark/GithubActions/src/main/scala'
+    paths: 
+    - 'testSpark/GithubActions/src/main/scala'
 
 permissions:
   contents: read
