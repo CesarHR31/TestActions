@@ -1,0 +1,40 @@
+name: Scala Build Solution
+
+on: [workflow_dispatch]
+
+# on:
+  # push:
+  #  branches: [ "main" ]
+  #  paths: 
+  #  - 'testSpark/GithubActions/src/main/scala'
+  #pull_request:
+  #  branches: [ "main" ]
+  #  paths: 
+  #  - 'testSpark/GithubActions/src/main/scala'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JDK 11
+      uses: actions/setup-java@v4
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+        cache: 'sbt'
+
+    - name: Set up sbt Launcher
+      uses: sbt/setup-sbt@v1
+      with:
+        sbt-runner-version: 1.9.8
+      
+    - name: Run tests
+      working-directory: ./testSpark/GithubActions
+      run: sbt "testOnly scala.sparkTest -- -z \"Print message\""
+      #run: sbt test
