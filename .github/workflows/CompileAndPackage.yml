@@ -1,4 +1,4 @@
-name: Scala CI
+name: Compile and Package scala solution
 
 on: [workflow_dispatch]
 #on:
