@@ -1,16 +1,11 @@
-name: Scala Build Solution
+name: Compile and Package scala solution
 
 on: [workflow_dispatch]
-
-# on:
-  # push:
-  #  branches: [ "main" ]
-  #  paths: 
-  #  - 'testSpark/GithubActions/src/main/scala'
-  #pull_request:
-  #  branches: [ "main" ]
-  #  paths: 
-  #  - 'testSpark/GithubActions/src/main/scala'
+#on:
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -29,12 +24,17 @@ jobs:
         distribution: 'temurin'
         cache: 'sbt'
 
-    - name: Set up sbt Launcher
+    - name: Set up sbt
       uses: sbt/setup-sbt@v1
-      with:
+      with: 
         sbt-runner-version: 1.9.8
-      
-    - name: Run tests
+
+    - name: Compile and Package
       working-directory: ./testSpark/GithubActions
-      run: sbt "testOnly sparkTest -- -z \"Spark DF\""
-      #run: sbt test
+      run: sbt clean compile package
+
+    - name: Upload JAR Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: test-jar
+        path: ./testSpark/GithubActions/target/scala-*/*.jar
