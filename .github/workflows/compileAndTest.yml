@@ -36,5 +36,5 @@ jobs:
       
     - name: Run tests
       working-directory: ./testSpark/GithubActions
-      run: sbt "testOnly sparkTest -- -z \"Print message\""
+      run: sbt "testOnly sparkTest -- -z \"Spark DF\""
       #run: sbt test
