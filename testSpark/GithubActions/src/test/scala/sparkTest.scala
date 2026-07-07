@@ -12,4 +12,8 @@ class sparkTest extends AnyFunSuite {
       .toDF()
       .show()
   }
+
+  test("Print message"){
+    println("Test message from IntelliJ test case")
+  }
 }
