@@ -28,5 +28,9 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: 'sbt'
+
+    - name: Set up sbt Launcher
+      uses: sbt/setup-sbt@v1
+      
     - name: Run tests
       run: sbt test
