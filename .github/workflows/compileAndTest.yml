@@ -35,4 +35,5 @@ jobs:
         sbt-runner-version: 1.9.8
       
     - name: Run tests
-      run: sbt "testSpark/GithubActions/src/test/scala / test"
+      working-directory: ./testSpark/GithubActions
+      run: sbt test
