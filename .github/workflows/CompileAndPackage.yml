@@ -26,6 +26,8 @@ jobs:
 
     - name: Set up sbt
       uses: sbt/setup-sbt@v1
+      with: 
+        sbt-runner-version: 1.9.8
 
     - name: Compile and Package
       working-directory: ./testSpark/GithubActions
