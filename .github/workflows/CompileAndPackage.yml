@@ -41,3 +41,11 @@ jobs:
       with:
         name: test-jar
         path: ./testSpark/GithubActions/target/scala-*/*.jar
+
+    - name: Commit and Push changes
+      uses: stefanzweifel/git-auto-commit-action@v7
+      with:
+        commit_message: Update jar
+        commit_user_name: Cesar Herrera [GitHub Actions]
+        commit_user_email: cesar.herrera@teia.mx
+        commit_author: CesarHR31
