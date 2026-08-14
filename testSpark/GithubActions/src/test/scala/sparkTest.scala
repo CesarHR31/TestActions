@@ -1,3 +1,4 @@
+// test comment
 import comunes.SparkSessionManager
 import org.scalatest.funsuite.AnyFunSuite
 
